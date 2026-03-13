@@ -1,0 +1,11 @@
+course_id,course_name,skill
+1,Python Basics,Python
+2,Numpy Fundamentals,Numpy
+3,Pandas for Data Analysis,Pandas
+4,Statistics for Data Science,Statistics
+5,Machine Learning Intro,Machine Learning
+6,Deep Learning Fundamentals,Deep Learning
+7,Linear Algebra for ML,Math
+8,Probability for Data Science,Statistics
+9,Data Visualization with Python,Visualization
+10,Neural Networks Basics,Deep Learning

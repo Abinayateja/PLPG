@@ -1,0 +1,11 @@
+user_id,skills,goal,course,completion
+1,"python",data_scientist,statistics,1
+2,"python,statistics",data_scientist,machine_learning,1
+3,"html,css",web_dev,javascript,1
+4,"python",ai_engineer,deep_learning,0
+5,"statistics",data_scientist,machine_learning,1
+6,"python",ai_engineer,machine_learning,1
+7,"html",web_dev,css,1
+8,"python",data_scientist,machine_learning,0
+9,"statistics,python",data_scientist,data_visualization,1
+10,"html,css,javascript",web_dev,react,1

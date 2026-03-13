@@ -1,0 +1,1201 @@
+course_id,course_name,skill,difficulty
+0,Statistics for Data Science,TensorFlow,Intermediate
+1,Advanced Python,Numpy,Intermediate
+2,SQL for Data Science,Machine Learning,Beginner
+3,Statistics for Data Science,Python,Beginner
+4,Pandas for Data Analysis,Numpy,Advanced
+5,Pandas for Data Analysis,Machine Learning,Intermediate
+6,Python Basics,Pandas,Beginner
+7,TensorFlow Crash Course,TensorFlow,Advanced
+8,Pandas for Data Analysis,Numpy,Beginner
+9,Deep Learning Fundamentals,TensorFlow,Advanced
+10,PyTorch for Deep Learning,Linear Algebra,Beginner
+11,PyTorch for Deep Learning,Statistics,Advanced
+12,Statistics for Data Science,Machine Learning,Beginner
+13,PyTorch for Deep Learning,Deep Learning,Intermediate
+14,Pandas for Data Analysis,TensorFlow,Beginner
+15,Advanced Python,TensorFlow,Beginner
+16,TensorFlow Crash Course,PyTorch,Beginner
+17,Data Visualization with Python,Data Visualization,Beginner
+18,Statistics for Data Science,PyTorch,Advanced
+19,Python Basics,PyTorch,Advanced
+20,Deep Learning Fundamentals,TensorFlow,Intermediate
+21,PyTorch for Deep Learning,PyTorch,Advanced
+22,SQL for Data Science,Deep Learning,Intermediate
+23,Advanced Python,PyTorch,Beginner
+24,Statistics for Data Science,Data Visualization,Beginner
+25,Machine Learning Intro,Linear Algebra,Intermediate
+26,Python Basics,Data Visualization,Beginner
+27,Advanced Python,Pandas,Advanced
+28,PyTorch for Deep Learning,Statistics,Intermediate
+29,TensorFlow Crash Course,Data Analysis,Beginner
+30,Statistics for Data Science,Numpy,Intermediate
+31,TensorFlow Crash Course,Statistics,Advanced
+32,PyTorch for Deep Learning,TensorFlow,Beginner
+33,Pandas for Data Analysis,Linear Algebra,Beginner
+34,Machine Learning Intro,SQL,Intermediate
+35,SQL for Data Science,TensorFlow,Intermediate
+36,Statistics for Data Science,Numpy,Beginner
+37,SQL for Data Science,Machine Learning,Beginner
+38,TensorFlow Crash Course,PyTorch,Beginner
+39,Data Visualization with Python,Data Analysis,Beginner
+40,PyTorch for Deep Learning,Data Visualization,Beginner
+41,Pandas for Data Analysis,Numpy,Intermediate
+42,TensorFlow Crash Course,Data Analysis,Advanced
+43,Advanced Python,Pandas,Beginner
+44,Pandas for Data Analysis,SQL,Beginner
+45,Statistics for Data Science,Data Analysis,Advanced
+46,Statistics for Data Science,Machine Learning,Advanced
+47,SQL for Data Science,Statistics,Advanced
+48,Deep Learning Fundamentals,Data Visualization,Advanced
+49,Numpy Fundamentals,Numpy,Intermediate
+50,Pandas for Data Analysis,Statistics,Beginner
+51,Advanced Python,Data Analysis,Intermediate
+52,Python Basics,Pandas,Intermediate
+53,Deep Learning Fundamentals,Pandas,Intermediate
+54,Numpy Fundamentals,Linear Algebra,Advanced
+55,Python Basics,Deep Learning,Intermediate
+56,Pandas for Data Analysis,Pandas,Beginner
+57,Pandas for Data Analysis,Numpy,Intermediate
+58,TensorFlow Crash Course,Deep Learning,Intermediate
+59,Deep Learning Fundamentals,SQL,Beginner
+60,TensorFlow Crash Course,Statistics,Advanced
+61,Neural Networks,Pandas,Intermediate
+62,SQL for Data Science,Linear Algebra,Advanced
+63,Neural Networks,PyTorch,Intermediate
+64,SQL for Data Science,PyTorch,Advanced
+65,SQL for Data Science,TensorFlow,Advanced
+66,Python Basics,SQL,Intermediate
+67,Data Visualization with Python,Deep Learning,Beginner
+68,Numpy Fundamentals,PyTorch,Advanced
+69,Python Basics,Deep Learning,Advanced
+70,Advanced Python,Numpy,Intermediate
+71,Deep Learning Fundamentals,Statistics,Intermediate
+72,Deep Learning Fundamentals,Deep Learning,Beginner
+73,Numpy Fundamentals,SQL,Beginner
+74,Data Visualization with Python,Data Visualization,Intermediate
+75,SQL for Data Science,Linear Algebra,Beginner
+76,Data Visualization with Python,Data Analysis,Beginner
+77,PyTorch for Deep Learning,Data Visualization,Advanced
+78,PyTorch for Deep Learning,Numpy,Intermediate
+79,Deep Learning Fundamentals,Pandas,Advanced
+80,Pandas for Data Analysis,SQL,Intermediate
+81,Numpy Fundamentals,Linear Algebra,Intermediate
+82,Neural Networks,Data Visualization,Intermediate
+83,Python Basics,Linear Algebra,Intermediate
+84,SQL for Data Science,Python,Beginner
+85,Data Visualization with Python,SQL,Advanced
+86,Numpy Fundamentals,TensorFlow,Intermediate
+87,Deep Learning Fundamentals,Deep Learning,Advanced
+88,Machine Learning Intro,Data Visualization,Intermediate
+89,TensorFlow Crash Course,Statistics,Intermediate
+90,Deep Learning Fundamentals,Statistics,Intermediate
+91,Pandas for Data Analysis,PyTorch,Beginner
+92,TensorFlow Crash Course,Machine Learning,Intermediate
+93,TensorFlow Crash Course,TensorFlow,Intermediate
+94,Machine Learning Intro,Pandas,Intermediate
+95,Advanced Python,Statistics,Intermediate
+96,TensorFlow Crash Course,Numpy,Intermediate
+97,Advanced Python,Statistics,Beginner
+98,Deep Learning Fundamentals,Linear Algebra,Advanced
+99,Deep Learning Fundamentals,Numpy,Intermediate
+100,Deep Learning Fundamentals,Deep Learning,Intermediate
+101,Advanced Python,TensorFlow,Intermediate
+102,Data Visualization with Python,SQL,Beginner
+103,PyTorch for Deep Learning,Machine Learning,Beginner
+104,TensorFlow Crash Course,Deep Learning,Beginner
+105,SQL for Data Science,Pandas,Intermediate
+106,Machine Learning Intro,Pandas,Advanced
+107,Machine Learning Intro,Data Visualization,Beginner
+108,Advanced Python,Pandas,Intermediate
+109,Data Visualization with Python,Machine Learning,Advanced
+110,SQL for Data Science,Statistics,Beginner
+111,Neural Networks,Linear Algebra,Beginner
+112,Python Basics,Data Analysis,Beginner
+113,Deep Learning Fundamentals,SQL,Advanced
+114,Advanced Python,Machine Learning,Intermediate
+115,Pandas for Data Analysis,Numpy,Advanced
+116,Machine Learning Intro,Python,Intermediate
+117,Statistics for Data Science,Data Visualization,Intermediate
+118,PyTorch for Deep Learning,Data Visualization,Beginner
+119,Pandas for Data Analysis,TensorFlow,Advanced
+120,Pandas for Data Analysis,Statistics,Intermediate
+121,Data Visualization with Python,Machine Learning,Intermediate
+122,Pandas for Data Analysis,TensorFlow,Advanced
+123,SQL for Data Science,SQL,Beginner
+124,Neural Networks,Data Analysis,Intermediate
+125,Machine Learning Intro,Statistics,Intermediate
+126,Advanced Python,Data Analysis,Advanced
+127,TensorFlow Crash Course,Python,Beginner
+128,PyTorch for Deep Learning,Deep Learning,Advanced
+129,Pandas for Data Analysis,Python,Beginner
+130,Pandas for Data Analysis,Numpy,Intermediate
+131,PyTorch for Deep Learning,Linear Algebra,Advanced
+132,Pandas for Data Analysis,Python,Advanced
+133,Advanced Python,Statistics,Intermediate
+134,Machine Learning Intro,Numpy,Advanced
+135,Machine Learning Intro,Pandas,Beginner
+136,Numpy Fundamentals,Pandas,Advanced
+137,SQL for Data Science,Deep Learning,Advanced
+138,Numpy Fundamentals,Numpy,Advanced
+139,SQL for Data Science,Data Analysis,Advanced
+140,PyTorch for Deep Learning,Deep Learning,Intermediate
+141,Data Visualization with Python,Data Analysis,Intermediate
+142,PyTorch for Deep Learning,Deep Learning,Advanced
+143,TensorFlow Crash Course,TensorFlow,Intermediate
+144,TensorFlow Crash Course,Linear Algebra,Advanced
+145,Machine Learning Intro,SQL,Beginner
+146,Neural Networks,Python,Beginner
+147,Numpy Fundamentals,SQL,Beginner
+148,SQL for Data Science,Pandas,Intermediate
+149,Advanced Python,PyTorch,Beginner
+150,Data Visualization with Python,Python,Intermediate
+151,Machine Learning Intro,PyTorch,Beginner
+152,Python Basics,Machine Learning,Advanced
+153,Data Visualization with Python,Linear Algebra,Beginner
+154,Python Basics,Deep Learning,Intermediate
+155,PyTorch for Deep Learning,Pandas,Beginner
+156,Neural Networks,Data Visualization,Intermediate
+157,Statistics for Data Science,Pandas,Intermediate
+158,Data Visualization with Python,Machine Learning,Intermediate
+159,Deep Learning Fundamentals,Python,Beginner
+160,SQL for Data Science,Pandas,Advanced
+161,Data Visualization with Python,Pandas,Advanced
+162,Machine Learning Intro,TensorFlow,Beginner
+163,Pandas for Data Analysis,Pandas,Advanced
+164,Advanced Python,Deep Learning,Intermediate
+165,TensorFlow Crash Course,Linear Algebra,Intermediate
+166,Python Basics,SQL,Intermediate
+167,Pandas for Data Analysis,SQL,Beginner
+168,Python Basics,Linear Algebra,Intermediate
+169,Machine Learning Intro,Deep Learning,Advanced
+170,PyTorch for Deep Learning,Data Analysis,Advanced
+171,Numpy Fundamentals,Data Visualization,Beginner
+172,SQL for Data Science,Numpy,Advanced
+173,Deep Learning Fundamentals,Numpy,Intermediate
+174,Machine Learning Intro,TensorFlow,Intermediate
+175,TensorFlow Crash Course,Data Analysis,Intermediate
+176,Deep Learning Fundamentals,Numpy,Intermediate
+177,Machine Learning Intro,TensorFlow,Intermediate
+178,Statistics for Data Science,Python,Intermediate
+179,PyTorch for Deep Learning,Linear Algebra,Intermediate
+180,Machine Learning Intro,PyTorch,Beginner
+181,Numpy Fundamentals,Numpy,Beginner
+182,Machine Learning Intro,PyTorch,Intermediate
+183,TensorFlow Crash Course,Data Visualization,Beginner
+184,SQL for Data Science,Statistics,Beginner
+185,Deep Learning Fundamentals,PyTorch,Intermediate
+186,Advanced Python,Statistics,Intermediate
+187,Statistics for Data Science,Numpy,Beginner
+188,TensorFlow Crash Course,SQL,Intermediate
+189,SQL for Data Science,TensorFlow,Beginner
+190,Numpy Fundamentals,Machine Learning,Intermediate
+191,Advanced Python,Numpy,Intermediate
+192,Data Visualization with Python,Pandas,Beginner
+193,TensorFlow Crash Course,Numpy,Advanced
+194,Machine Learning Intro,SQL,Beginner
+195,TensorFlow Crash Course,TensorFlow,Intermediate
+196,Pandas for Data Analysis,SQL,Advanced
+197,Deep Learning Fundamentals,SQL,Beginner
+198,Neural Networks,SQL,Beginner
+199,Statistics for Data Science,SQL,Advanced
+200,Deep Learning Fundamentals,Linear Algebra,Beginner
+201,Numpy Fundamentals,Data Visualization,Beginner
+202,Statistics for Data Science,Data Visualization,Intermediate
+203,Machine Learning Intro,Pandas,Intermediate
+204,Machine Learning Intro,Machine Learning,Advanced
+205,Neural Networks,Linear Algebra,Advanced
+206,Numpy Fundamentals,TensorFlow,Intermediate
+207,Neural Networks,Data Analysis,Beginner
+208,Advanced Python,Python,Advanced
+209,PyTorch for Deep Learning,SQL,Intermediate
+210,Neural Networks,TensorFlow,Advanced
+211,SQL for Data Science,TensorFlow,Advanced
+212,Neural Networks,SQL,Beginner
+213,Pandas for Data Analysis,TensorFlow,Advanced
+214,Python Basics,Machine Learning,Beginner
+215,Pandas for Data Analysis,Python,Beginner
+216,Statistics for Data Science,Pandas,Advanced
+217,SQL for Data Science,PyTorch,Beginner
+218,TensorFlow Crash Course,Numpy,Beginner
+219,Deep Learning Fundamentals,Python,Advanced
+220,Data Visualization with Python,Machine Learning,Beginner
+221,Deep Learning Fundamentals,Statistics,Beginner
+222,SQL for Data Science,Numpy,Beginner
+223,Data Visualization with Python,Statistics,Advanced
+224,SQL for Data Science,Data Analysis,Advanced
+225,Numpy Fundamentals,Linear Algebra,Beginner
+226,Pandas for Data Analysis,Numpy,Beginner
+227,Pandas for Data Analysis,SQL,Advanced
+228,SQL for Data Science,Linear Algebra,Beginner
+229,Data Visualization with Python,Linear Algebra,Advanced
+230,Python Basics,SQL,Beginner
+231,Neural Networks,Statistics,Intermediate
+232,Neural Networks,Linear Algebra,Intermediate
+233,Statistics for Data Science,PyTorch,Advanced
+234,TensorFlow Crash Course,Machine Learning,Advanced
+235,Python Basics,Statistics,Advanced
+236,Data Visualization with Python,Deep Learning,Intermediate
+237,Numpy Fundamentals,SQL,Intermediate
+238,Python Basics,Pandas,Intermediate
+239,Numpy Fundamentals,Data Analysis,Intermediate
+240,Advanced Python,Statistics,Beginner
+241,TensorFlow Crash Course,Deep Learning,Advanced
+242,SQL for Data Science,PyTorch,Beginner
+243,Machine Learning Intro,Deep Learning,Beginner
+244,SQL for Data Science,Numpy,Beginner
+245,Advanced Python,Data Analysis,Advanced
+246,Neural Networks,Machine Learning,Advanced
+247,Data Visualization with Python,Data Analysis,Intermediate
+248,Advanced Python,Machine Learning,Intermediate
+249,Python Basics,SQL,Intermediate
+250,TensorFlow Crash Course,Linear Algebra,Advanced
+251,Neural Networks,Linear Algebra,Intermediate
+252,Machine Learning Intro,Data Analysis,Advanced
+253,TensorFlow Crash Course,TensorFlow,Advanced
+254,Machine Learning Intro,Pandas,Intermediate
+255,Numpy Fundamentals,Linear Algebra,Beginner
+256,Data Visualization with Python,PyTorch,Intermediate
+257,Pandas for Data Analysis,Machine Learning,Advanced
+258,Neural Networks,Numpy,Intermediate
+259,Python Basics,PyTorch,Intermediate
+260,Advanced Python,Data Analysis,Intermediate
+261,Advanced Python,Numpy,Intermediate
+262,Python Basics,Machine Learning,Advanced
+263,Numpy Fundamentals,Pandas,Advanced
+264,Python Basics,Linear Algebra,Advanced
+265,Neural Networks,PyTorch,Intermediate
+266,Advanced Python,Numpy,Advanced
+267,Statistics for Data Science,Deep Learning,Intermediate
+268,Data Visualization with Python,Numpy,Advanced
+269,PyTorch for Deep Learning,Data Analysis,Beginner
+270,PyTorch for Deep Learning,Deep Learning,Beginner
+271,Numpy Fundamentals,PyTorch,Intermediate
+272,Statistics for Data Science,Machine Learning,Advanced
+273,Python Basics,Linear Algebra,Intermediate
+274,Deep Learning Fundamentals,Pandas,Beginner
+275,Python Basics,SQL,Intermediate
+276,Neural Networks,Pandas,Beginner
+277,Machine Learning Intro,Pandas,Intermediate
+278,TensorFlow Crash Course,SQL,Intermediate
+279,PyTorch for Deep Learning,Data Visualization,Intermediate
+280,Deep Learning Fundamentals,Pandas,Intermediate
+281,Data Visualization with Python,Numpy,Intermediate
+282,Pandas for Data Analysis,Linear Algebra,Beginner
+283,Machine Learning Intro,Numpy,Beginner
+284,Machine Learning Intro,Numpy,Advanced
+285,Neural Networks,PyTorch,Advanced
+286,Statistics for Data Science,Data Visualization,Advanced
+287,Pandas for Data Analysis,Statistics,Advanced
+288,Statistics for Data Science,Data Visualization,Beginner
+289,Python Basics,Linear Algebra,Intermediate
+290,Deep Learning Fundamentals,Data Analysis,Advanced
+291,Deep Learning Fundamentals,PyTorch,Intermediate
+292,Data Visualization with Python,Machine Learning,Intermediate
+293,Advanced Python,TensorFlow,Beginner
+294,Pandas for Data Analysis,Pandas,Beginner
+295,Pandas for Data Analysis,PyTorch,Advanced
+296,Numpy Fundamentals,SQL,Intermediate
+297,Pandas for Data Analysis,Python,Beginner
+298,SQL for Data Science,PyTorch,Advanced
+299,Deep Learning Fundamentals,Deep Learning,Advanced
+300,Statistics for Data Science,TensorFlow,Intermediate
+301,PyTorch for Deep Learning,Deep Learning,Beginner
+302,TensorFlow Crash Course,Data Visualization,Advanced
+303,SQL for Data Science,Pandas,Advanced
+304,PyTorch for Deep Learning,Deep Learning,Intermediate
+305,Statistics for Data Science,Linear Algebra,Advanced
+306,Numpy Fundamentals,Machine Learning,Beginner
+307,Data Visualization with Python,Machine Learning,Intermediate
+308,Numpy Fundamentals,Python,Beginner
+309,Pandas for Data Analysis,Pandas,Beginner
+310,Deep Learning Fundamentals,Python,Beginner
+311,Advanced Python,Machine Learning,Intermediate
+312,SQL for Data Science,Data Analysis,Beginner
+313,Advanced Python,TensorFlow,Beginner
+314,TensorFlow Crash Course,Data Analysis,Intermediate
+315,PyTorch for Deep Learning,Data Analysis,Intermediate
+316,PyTorch for Deep Learning,Statistics,Intermediate
+317,Python Basics,Data Visualization,Advanced
+318,PyTorch for Deep Learning,Python,Advanced
+319,PyTorch for Deep Learning,Deep Learning,Intermediate
+320,Machine Learning Intro,Deep Learning,Intermediate
+321,Machine Learning Intro,Deep Learning,Advanced
+322,Pandas for Data Analysis,Linear Algebra,Beginner
+323,Machine Learning Intro,SQL,Beginner
+324,Neural Networks,TensorFlow,Intermediate
+325,Python Basics,SQL,Beginner
+326,Numpy Fundamentals,TensorFlow,Intermediate
+327,Numpy Fundamentals,Machine Learning,Advanced
+328,PyTorch for Deep Learning,Machine Learning,Intermediate
+329,Numpy Fundamentals,TensorFlow,Intermediate
+330,Pandas for Data Analysis,Deep Learning,Intermediate
+331,Data Visualization with Python,PyTorch,Intermediate
+332,SQL for Data Science,PyTorch,Beginner
+333,Numpy Fundamentals,Python,Beginner
+334,TensorFlow Crash Course,Linear Algebra,Beginner
+335,SQL for Data Science,Statistics,Intermediate
+336,Python Basics,Deep Learning,Beginner
+337,PyTorch for Deep Learning,TensorFlow,Beginner
+338,SQL for Data Science,Data Visualization,Intermediate
+339,SQL for Data Science,Data Analysis,Beginner
+340,Advanced Python,Linear Algebra,Beginner
+341,Deep Learning Fundamentals,Python,Intermediate
+342,Python Basics,SQL,Intermediate
+343,Machine Learning Intro,Linear Algebra,Advanced
+344,Machine Learning Intro,Data Visualization,Beginner
+345,TensorFlow Crash Course,Statistics,Intermediate
+346,Machine Learning Intro,Deep Learning,Beginner
+347,Advanced Python,Machine Learning,Intermediate
+348,PyTorch for Deep Learning,Pandas,Advanced
+349,Machine Learning Intro,Data Analysis,Advanced
+350,Advanced Python,Deep Learning,Advanced
+351,PyTorch for Deep Learning,Pandas,Beginner
+352,Data Visualization with Python,Data Visualization,Beginner
+353,TensorFlow Crash Course,TensorFlow,Intermediate
+354,Deep Learning Fundamentals,Linear Algebra,Beginner
+355,Neural Networks,Data Visualization,Beginner
+356,TensorFlow Crash Course,TensorFlow,Advanced
+357,Deep Learning Fundamentals,Data Analysis,Beginner
+358,Neural Networks,Statistics,Beginner
+359,TensorFlow Crash Course,Statistics,Advanced
+360,Data Visualization with Python,Data Analysis,Intermediate
+361,Numpy Fundamentals,Data Analysis,Beginner
+362,Pandas for Data Analysis,PyTorch,Intermediate
+363,Python Basics,Machine Learning,Intermediate
+364,Data Visualization with Python,TensorFlow,Intermediate
+365,Neural Networks,PyTorch,Intermediate
+366,Pandas for Data Analysis,Linear Algebra,Intermediate
+367,PyTorch for Deep Learning,Data Analysis,Advanced
+368,Python Basics,Numpy,Intermediate
+369,TensorFlow Crash Course,Data Analysis,Advanced
+370,Pandas for Data Analysis,Numpy,Beginner
+371,Python Basics,Deep Learning,Intermediate
+372,SQL for Data Science,Linear Algebra,Beginner
+373,SQL for Data Science,SQL,Beginner
+374,Deep Learning Fundamentals,Python,Advanced
+375,Data Visualization with Python,Data Visualization,Beginner
+376,TensorFlow Crash Course,Pandas,Beginner
+377,Neural Networks,Data Analysis,Advanced
+378,Pandas for Data Analysis,Data Analysis,Beginner
+379,SQL for Data Science,Statistics,Advanced
+380,Python Basics,Linear Algebra,Intermediate
+381,Deep Learning Fundamentals,Deep Learning,Beginner
+382,Pandas for Data Analysis,Statistics,Beginner
+383,PyTorch for Deep Learning,TensorFlow,Intermediate
+384,Data Visualization with Python,TensorFlow,Advanced
+385,SQL for Data Science,Statistics,Beginner
+386,PyTorch for Deep Learning,Data Analysis,Advanced
+387,Machine Learning Intro,Machine Learning,Advanced
+388,Advanced Python,Data Visualization,Intermediate
+389,Python Basics,Data Visualization,Intermediate
+390,Pandas for Data Analysis,Data Analysis,Advanced
+391,PyTorch for Deep Learning,PyTorch,Beginner
+392,Python Basics,Linear Algebra,Advanced
+393,PyTorch for Deep Learning,Statistics,Beginner
+394,Statistics for Data Science,Statistics,Beginner
+395,PyTorch for Deep Learning,Pandas,Intermediate
+396,TensorFlow Crash Course,Data Visualization,Intermediate
+397,Numpy Fundamentals,Deep Learning,Beginner
+398,Statistics for Data Science,SQL,Intermediate
+399,Statistics for Data Science,Pandas,Intermediate
+400,SQL for Data Science,PyTorch,Intermediate
+401,Advanced Python,Machine Learning,Advanced
+402,Neural Networks,Python,Beginner
+403,Numpy Fundamentals,Statistics,Beginner
+404,Advanced Python,Python,Advanced
+405,Deep Learning Fundamentals,Data Analysis,Advanced
+406,Python Basics,Pandas,Intermediate
+407,Statistics for Data Science,Machine Learning,Advanced
+408,Neural Networks,PyTorch,Intermediate
+409,Data Visualization with Python,TensorFlow,Advanced
+410,Data Visualization with Python,Deep Learning,Intermediate
+411,Advanced Python,PyTorch,Intermediate
+412,SQL for Data Science,Data Visualization,Advanced
+413,Advanced Python,Machine Learning,Intermediate
+414,Numpy Fundamentals,PyTorch,Beginner
+415,Numpy Fundamentals,Data Visualization,Advanced
+416,TensorFlow Crash Course,Data Analysis,Intermediate
+417,Pandas for Data Analysis,Python,Intermediate
+418,SQL for Data Science,Linear Algebra,Beginner
+419,Deep Learning Fundamentals,Numpy,Intermediate
+420,Pandas for Data Analysis,PyTorch,Advanced
+421,Machine Learning Intro,Data Visualization,Advanced
+422,SQL for Data Science,Machine Learning,Intermediate
+423,Statistics for Data Science,Deep Learning,Beginner
+424,Pandas for Data Analysis,Deep Learning,Intermediate
+425,Advanced Python,Data Visualization,Advanced
+426,Python Basics,Machine Learning,Beginner
+427,Advanced Python,Statistics,Intermediate
+428,Advanced Python,Data Analysis,Beginner
+429,SQL for Data Science,Python,Beginner
+430,PyTorch for Deep Learning,Pandas,Intermediate
+431,TensorFlow Crash Course,Python,Beginner
+432,Statistics for Data Science,Machine Learning,Intermediate
+433,Neural Networks,Pandas,Intermediate
+434,Machine Learning Intro,PyTorch,Beginner
+435,SQL for Data Science,Statistics,Beginner
+436,Advanced Python,SQL,Beginner
+437,Pandas for Data Analysis,SQL,Advanced
+438,TensorFlow Crash Course,Machine Learning,Beginner
+439,Statistics for Data Science,Statistics,Advanced
+440,Numpy Fundamentals,Statistics,Beginner
+441,Machine Learning Intro,PyTorch,Intermediate
+442,Data Visualization with Python,SQL,Advanced
+443,Advanced Python,PyTorch,Intermediate
+444,Statistics for Data Science,Numpy,Beginner
+445,Pandas for Data Analysis,Pandas,Beginner
+446,Neural Networks,SQL,Intermediate
+447,Statistics for Data Science,PyTorch,Intermediate
+448,Data Visualization with Python,Data Analysis,Intermediate
+449,Numpy Fundamentals,Machine Learning,Intermediate
+450,SQL for Data Science,SQL,Intermediate
+451,Deep Learning Fundamentals,PyTorch,Beginner
+452,Numpy Fundamentals,Data Visualization,Beginner
+453,Python Basics,Deep Learning,Advanced
+454,Neural Networks,Data Analysis,Intermediate
+455,Pandas for Data Analysis,Statistics,Intermediate
+456,TensorFlow Crash Course,Data Analysis,Beginner
+457,PyTorch for Deep Learning,Numpy,Advanced
+458,TensorFlow Crash Course,SQL,Advanced
+459,Statistics for Data Science,SQL,Beginner
+460,Deep Learning Fundamentals,PyTorch,Beginner
+461,TensorFlow Crash Course,TensorFlow,Intermediate
+462,Data Visualization with Python,Numpy,Advanced
+463,PyTorch for Deep Learning,PyTorch,Advanced
+464,Statistics for Data Science,Numpy,Advanced
+465,SQL for Data Science,Machine Learning,Intermediate
+466,Data Visualization with Python,Linear Algebra,Advanced
+467,Statistics for Data Science,SQL,Beginner
+468,Advanced Python,PyTorch,Advanced
+469,PyTorch for Deep Learning,Pandas,Intermediate
+470,SQL for Data Science,Machine Learning,Beginner
+471,Numpy Fundamentals,Numpy,Beginner
+472,PyTorch for Deep Learning,Deep Learning,Beginner
+473,Machine Learning Intro,PyTorch,Advanced
+474,Advanced Python,Linear Algebra,Beginner
+475,Machine Learning Intro,PyTorch,Advanced
+476,SQL for Data Science,Data Visualization,Intermediate
+477,Advanced Python,Data Visualization,Beginner
+478,Advanced Python,PyTorch,Intermediate
+479,PyTorch for Deep Learning,PyTorch,Advanced
+480,Machine Learning Intro,Numpy,Intermediate
+481,Neural Networks,PyTorch,Intermediate
+482,Statistics for Data Science,Pandas,Advanced
+483,SQL for Data Science,Numpy,Advanced
+484,Python Basics,TensorFlow,Beginner
+485,Machine Learning Intro,TensorFlow,Beginner
+486,TensorFlow Crash Course,Deep Learning,Beginner
+487,Python Basics,Python,Intermediate
+488,Deep Learning Fundamentals,PyTorch,Advanced
+489,Deep Learning Fundamentals,SQL,Intermediate
+490,Neural Networks,Machine Learning,Intermediate
+491,TensorFlow Crash Course,TensorFlow,Intermediate
+492,Machine Learning Intro,Linear Algebra,Intermediate
+493,Numpy Fundamentals,SQL,Beginner
+494,Numpy Fundamentals,Python,Intermediate
+495,SQL for Data Science,Statistics,Beginner
+496,Data Visualization with Python,Statistics,Advanced
+497,Python Basics,Statistics,Intermediate
+498,Statistics for Data Science,Data Visualization,Advanced
+499,Pandas for Data Analysis,PyTorch,Advanced
+500,Advanced Python,Deep Learning,Beginner
+501,Pandas for Data Analysis,TensorFlow,Advanced
+502,Machine Learning Intro,SQL,Beginner
+503,Deep Learning Fundamentals,SQL,Intermediate
+504,SQL for Data Science,Linear Algebra,Advanced
+505,TensorFlow Crash Course,Pandas,Intermediate
+506,Numpy Fundamentals,Machine Learning,Advanced
+507,SQL for Data Science,TensorFlow,Beginner
+508,Python Basics,Data Visualization,Intermediate
+509,Neural Networks,Machine Learning,Intermediate
+510,Python Basics,Python,Beginner
+511,Data Visualization with Python,Python,Advanced
+512,Advanced Python,Linear Algebra,Beginner
+513,Data Visualization with Python,PyTorch,Advanced
+514,PyTorch for Deep Learning,PyTorch,Advanced
+515,SQL for Data Science,Numpy,Intermediate
+516,PyTorch for Deep Learning,Python,Advanced
+517,SQL for Data Science,Pandas,Intermediate
+518,Data Visualization with Python,Numpy,Advanced
+519,Advanced Python,SQL,Beginner
+520,Numpy Fundamentals,Pandas,Intermediate
+521,Python Basics,Data Visualization,Beginner
+522,Statistics for Data Science,Numpy,Beginner
+523,Deep Learning Fundamentals,Python,Beginner
+524,Python Basics,Data Analysis,Advanced
+525,Numpy Fundamentals,Data Analysis,Advanced
+526,Statistics for Data Science,Machine Learning,Advanced
+527,Numpy Fundamentals,Statistics,Beginner
+528,Pandas for Data Analysis,Pandas,Beginner
+529,Neural Networks,Statistics,Beginner
+530,Machine Learning Intro,Machine Learning,Intermediate
+531,SQL for Data Science,Data Analysis,Beginner
+532,Neural Networks,Statistics,Advanced
+533,PyTorch for Deep Learning,Pandas,Advanced
+534,Deep Learning Fundamentals,Machine Learning,Beginner
+535,Data Visualization with Python,Python,Intermediate
+536,Python Basics,TensorFlow,Beginner
+537,Python Basics,Data Analysis,Advanced
+538,Machine Learning Intro,Machine Learning,Beginner
+539,Numpy Fundamentals,Python,Intermediate
+540,Numpy Fundamentals,TensorFlow,Beginner
+541,Advanced Python,Deep Learning,Intermediate
+542,TensorFlow Crash Course,Linear Algebra,Intermediate
+543,Neural Networks,Data Visualization,Beginner
+544,Advanced Python,PyTorch,Intermediate
+545,Machine Learning Intro,Numpy,Beginner
+546,SQL for Data Science,Machine Learning,Intermediate
+547,Neural Networks,Statistics,Intermediate
+548,SQL for Data Science,Linear Algebra,Advanced
+549,Deep Learning Fundamentals,Data Visualization,Advanced
+550,SQL for Data Science,TensorFlow,Advanced
+551,Statistics for Data Science,Linear Algebra,Intermediate
+552,Neural Networks,Data Visualization,Beginner
+553,PyTorch for Deep Learning,Pandas,Advanced
+554,Numpy Fundamentals,SQL,Advanced
+555,Python Basics,Deep Learning,Beginner
+556,Neural Networks,PyTorch,Advanced
+557,Neural Networks,TensorFlow,Advanced
+558,Machine Learning Intro,Numpy,Intermediate
+559,Advanced Python,Data Visualization,Intermediate
+560,Statistics for Data Science,Numpy,Beginner
+561,TensorFlow Crash Course,Machine Learning,Advanced
+562,TensorFlow Crash Course,PyTorch,Advanced
+563,Machine Learning Intro,PyTorch,Intermediate
+564,Neural Networks,Numpy,Beginner
+565,Neural Networks,Deep Learning,Beginner
+566,Advanced Python,Statistics,Beginner
+567,TensorFlow Crash Course,Statistics,Intermediate
+568,Advanced Python,Data Visualization,Intermediate
+569,Machine Learning Intro,Statistics,Advanced
+570,TensorFlow Crash Course,Data Visualization,Intermediate
+571,Deep Learning Fundamentals,TensorFlow,Advanced
+572,Data Visualization with Python,Pandas,Advanced
+573,Advanced Python,TensorFlow,Beginner
+574,Deep Learning Fundamentals,PyTorch,Beginner
+575,TensorFlow Crash Course,Data Analysis,Beginner
+576,Numpy Fundamentals,Pandas,Intermediate
+577,SQL for Data Science,PyTorch,Beginner
+578,PyTorch for Deep Learning,Machine Learning,Intermediate
+579,Neural Networks,Linear Algebra,Advanced
+580,Neural Networks,Machine Learning,Advanced
+581,Data Visualization with Python,TensorFlow,Advanced
+582,Statistics for Data Science,Python,Intermediate
+583,Advanced Python,Deep Learning,Intermediate
+584,Advanced Python,Statistics,Advanced
+585,PyTorch for Deep Learning,Statistics,Advanced
+586,Deep Learning Fundamentals,Deep Learning,Advanced
+587,Data Visualization with Python,TensorFlow,Intermediate
+588,Statistics for Data Science,Statistics,Advanced
+589,Pandas for Data Analysis,Python,Beginner
+590,TensorFlow Crash Course,Python,Advanced
+591,Deep Learning Fundamentals,Machine Learning,Beginner
+592,Advanced Python,Numpy,Beginner
+593,Machine Learning Intro,Linear Algebra,Advanced
+594,Numpy Fundamentals,Machine Learning,Advanced
+595,Data Visualization with Python,Pandas,Beginner
+596,TensorFlow Crash Course,Numpy,Beginner
+597,Python Basics,Deep Learning,Intermediate
+598,SQL for Data Science,Numpy,Beginner
+599,Advanced Python,SQL,Beginner
+600,Numpy Fundamentals,Data Analysis,Advanced
+601,TensorFlow Crash Course,Data Visualization,Intermediate
+602,Neural Networks,PyTorch,Advanced
+603,Pandas for Data Analysis,PyTorch,Advanced
+604,Deep Learning Fundamentals,Linear Algebra,Advanced
+605,Python Basics,Statistics,Intermediate
+606,Deep Learning Fundamentals,Data Analysis,Beginner
+607,TensorFlow Crash Course,Deep Learning,Advanced
+608,Neural Networks,Numpy,Beginner
+609,PyTorch for Deep Learning,Deep Learning,Beginner
+610,Numpy Fundamentals,TensorFlow,Advanced
+611,Neural Networks,Numpy,Beginner
+612,Statistics for Data Science,SQL,Advanced
+613,Neural Networks,Machine Learning,Advanced
+614,Pandas for Data Analysis,Deep Learning,Intermediate
+615,Statistics for Data Science,Linear Algebra,Advanced
+616,Neural Networks,TensorFlow,Intermediate
+617,Data Visualization with Python,TensorFlow,Beginner
+618,Neural Networks,Linear Algebra,Intermediate
+619,Data Visualization with Python,SQL,Beginner
+620,Data Visualization with Python,Python,Beginner
+621,Deep Learning Fundamentals,Machine Learning,Intermediate
+622,Neural Networks,TensorFlow,Intermediate
+623,Statistics for Data Science,Data Analysis,Intermediate
+624,Pandas for Data Analysis,SQL,Beginner
+625,Pandas for Data Analysis,TensorFlow,Advanced
+626,Numpy Fundamentals,Python,Advanced
+627,Deep Learning Fundamentals,Statistics,Advanced
+628,Statistics for Data Science,Deep Learning,Advanced
+629,Neural Networks,Pandas,Beginner
+630,Neural Networks,Data Analysis,Beginner
+631,Deep Learning Fundamentals,Pandas,Beginner
+632,PyTorch for Deep Learning,TensorFlow,Intermediate
+633,PyTorch for Deep Learning,SQL,Advanced
+634,TensorFlow Crash Course,Machine Learning,Advanced
+635,Numpy Fundamentals,Deep Learning,Advanced
+636,Advanced Python,PyTorch,Beginner
+637,Pandas for Data Analysis,SQL,Intermediate
+638,SQL for Data Science,Data Visualization,Advanced
+639,Neural Networks,Deep Learning,Advanced
+640,Deep Learning Fundamentals,TensorFlow,Intermediate
+641,Deep Learning Fundamentals,Numpy,Intermediate
+642,Statistics for Data Science,Data Analysis,Advanced
+643,Machine Learning Intro,Linear Algebra,Beginner
+644,Statistics for Data Science,TensorFlow,Beginner
+645,Python Basics,Data Visualization,Advanced
+646,Pandas for Data Analysis,TensorFlow,Intermediate
+647,Neural Networks,Python,Beginner
+648,Numpy Fundamentals,TensorFlow,Beginner
+649,TensorFlow Crash Course,Data Visualization,Advanced
+650,Numpy Fundamentals,Data Analysis,Beginner
+651,Advanced Python,Data Visualization,Beginner
+652,Machine Learning Intro,Machine Learning,Advanced
+653,Pandas for Data Analysis,Machine Learning,Intermediate
+654,Machine Learning Intro,Python,Advanced
+655,SQL for Data Science,TensorFlow,Beginner
+656,Statistics for Data Science,TensorFlow,Intermediate
+657,SQL for Data Science,Numpy,Intermediate
+658,TensorFlow Crash Course,Python,Intermediate
+659,Pandas for Data Analysis,Linear Algebra,Beginner
+660,Neural Networks,Python,Beginner
+661,Statistics for Data Science,Pandas,Beginner
+662,Advanced Python,Python,Advanced
+663,Advanced Python,Numpy,Intermediate
+664,TensorFlow Crash Course,Numpy,Intermediate
+665,Deep Learning Fundamentals,Python,Advanced
+666,Pandas for Data Analysis,SQL,Advanced
+667,PyTorch for Deep Learning,Machine Learning,Beginner
+668,SQL for Data Science,PyTorch,Beginner
+669,PyTorch for Deep Learning,Numpy,Intermediate
+670,Machine Learning Intro,SQL,Intermediate
+671,SQL for Data Science,Machine Learning,Beginner
+672,Neural Networks,Python,Advanced
+673,Numpy Fundamentals,Python,Beginner
+674,Deep Learning Fundamentals,PyTorch,Intermediate
+675,Neural Networks,Pandas,Advanced
+676,Statistics for Data Science,Machine Learning,Advanced
+677,Deep Learning Fundamentals,Data Analysis,Beginner
+678,Numpy Fundamentals,Numpy,Intermediate
+679,Neural Networks,Python,Advanced
+680,Numpy Fundamentals,Deep Learning,Intermediate
+681,Data Visualization with Python,Machine Learning,Intermediate
+682,Deep Learning Fundamentals,Python,Advanced
+683,Numpy Fundamentals,Linear Algebra,Beginner
+684,Pandas for Data Analysis,Python,Beginner
+685,Data Visualization with Python,TensorFlow,Beginner
+686,Data Visualization with Python,Deep Learning,Intermediate
+687,Numpy Fundamentals,TensorFlow,Beginner
+688,Deep Learning Fundamentals,Deep Learning,Intermediate
+689,Advanced Python,Data Visualization,Advanced
+690,Neural Networks,Python,Beginner
+691,Python Basics,Data Visualization,Advanced
+692,PyTorch for Deep Learning,Numpy,Intermediate
+693,Pandas for Data Analysis,PyTorch,Beginner
+694,Pandas for Data Analysis,SQL,Advanced
+695,Data Visualization with Python,Numpy,Beginner
+696,PyTorch for Deep Learning,Data Analysis,Beginner
+697,TensorFlow Crash Course,Machine Learning,Beginner
+698,Numpy Fundamentals,Python,Beginner
+699,Deep Learning Fundamentals,Deep Learning,Intermediate
+700,Machine Learning Intro,Machine Learning,Intermediate
+701,Statistics for Data Science,Pandas,Advanced
+702,PyTorch for Deep Learning,Numpy,Beginner
+703,Statistics for Data Science,Data Analysis,Advanced
+704,Neural Networks,Data Analysis,Advanced
+705,Deep Learning Fundamentals,Numpy,Intermediate
+706,TensorFlow Crash Course,Pandas,Intermediate
+707,TensorFlow Crash Course,TensorFlow,Beginner
+708,PyTorch for Deep Learning,Numpy,Intermediate
+709,Deep Learning Fundamentals,Linear Algebra,Advanced
+710,Advanced Python,TensorFlow,Advanced
+711,TensorFlow Crash Course,Statistics,Beginner
+712,Neural Networks,TensorFlow,Intermediate
+713,Machine Learning Intro,PyTorch,Advanced
+714,Deep Learning Fundamentals,Pandas,Beginner
+715,Pandas for Data Analysis,Python,Beginner
+716,Pandas for Data Analysis,TensorFlow,Intermediate
+717,Numpy Fundamentals,Statistics,Beginner
+718,Deep Learning Fundamentals,TensorFlow,Intermediate
+719,Advanced Python,SQL,Beginner
+720,TensorFlow Crash Course,Machine Learning,Intermediate
+721,TensorFlow Crash Course,Data Analysis,Advanced
+722,PyTorch for Deep Learning,Numpy,Beginner
+723,Python Basics,Machine Learning,Beginner
+724,Python Basics,Numpy,Advanced
+725,Pandas for Data Analysis,SQL,Advanced
+726,Pandas for Data Analysis,PyTorch,Beginner
+727,Machine Learning Intro,Data Visualization,Beginner
+728,Neural Networks,Python,Beginner
+729,Deep Learning Fundamentals,PyTorch,Intermediate
+730,Numpy Fundamentals,SQL,Beginner
+731,Neural Networks,Data Visualization,Advanced
+732,Neural Networks,Data Analysis,Beginner
+733,Neural Networks,Python,Advanced
+734,Data Visualization with Python,SQL,Intermediate
+735,Advanced Python,Numpy,Beginner
+736,Deep Learning Fundamentals,Numpy,Intermediate
+737,Deep Learning Fundamentals,Statistics,Intermediate
+738,Statistics for Data Science,Numpy,Intermediate
+739,Statistics for Data Science,Linear Algebra,Intermediate
+740,Numpy Fundamentals,Python,Advanced
+741,TensorFlow Crash Course,Python,Advanced
+742,Neural Networks,Data Visualization,Intermediate
+743,Numpy Fundamentals,Pandas,Intermediate
+744,Deep Learning Fundamentals,TensorFlow,Intermediate
+745,Pandas for Data Analysis,TensorFlow,Advanced
+746,Python Basics,Data Visualization,Intermediate
+747,Data Visualization with Python,SQL,Intermediate
+748,Deep Learning Fundamentals,Numpy,Advanced
+749,Machine Learning Intro,Python,Beginner
+750,Data Visualization with Python,Data Visualization,Intermediate
+751,Numpy Fundamentals,Data Visualization,Advanced
+752,Python Basics,Statistics,Intermediate
+753,Neural Networks,Python,Advanced
+754,Numpy Fundamentals,Machine Learning,Advanced
+755,Python Basics,Statistics,Beginner
+756,Advanced Python,PyTorch,Advanced
+757,TensorFlow Crash Course,Python,Beginner
+758,Pandas for Data Analysis,Data Visualization,Advanced
+759,Data Visualization with Python,Numpy,Intermediate
+760,Neural Networks,Statistics,Advanced
+761,TensorFlow Crash Course,Deep Learning,Advanced
+762,TensorFlow Crash Course,SQL,Intermediate
+763,Python Basics,TensorFlow,Advanced
+764,SQL for Data Science,Pandas,Advanced
+765,Pandas for Data Analysis,SQL,Beginner
+766,Machine Learning Intro,TensorFlow,Advanced
+767,PyTorch for Deep Learning,Linear Algebra,Beginner
+768,Numpy Fundamentals,Data Analysis,Intermediate
+769,Statistics for Data Science,Numpy,Advanced
+770,Data Visualization with Python,Python,Beginner
+771,Python Basics,Machine Learning,Beginner
+772,Deep Learning Fundamentals,Numpy,Intermediate
+773,TensorFlow Crash Course,Data Analysis,Beginner
+774,Neural Networks,SQL,Beginner
+775,Python Basics,SQL,Beginner
+776,Neural Networks,Pandas,Intermediate
+777,Data Visualization with Python,Linear Algebra,Advanced
+778,Python Basics,Machine Learning,Beginner
+779,TensorFlow Crash Course,Pandas,Beginner
+780,Deep Learning Fundamentals,Linear Algebra,Intermediate
+781,Neural Networks,TensorFlow,Intermediate
+782,Numpy Fundamentals,Pandas,Beginner
+783,TensorFlow Crash Course,Statistics,Beginner
+784,Numpy Fundamentals,Python,Beginner
+785,Python Basics,Python,Beginner
+786,Data Visualization with Python,Numpy,Advanced
+787,Data Visualization with Python,TensorFlow,Intermediate
+788,Statistics for Data Science,Python,Intermediate
+789,Statistics for Data Science,PyTorch,Advanced
+790,Machine Learning Intro,Python,Intermediate
+791,Numpy Fundamentals,Pandas,Beginner
+792,Numpy Fundamentals,PyTorch,Beginner
+793,Numpy Fundamentals,Deep Learning,Beginner
+794,Python Basics,Numpy,Advanced
+795,PyTorch for Deep Learning,Deep Learning,Advanced
+796,Numpy Fundamentals,Numpy,Beginner
+797,Pandas for Data Analysis,Machine Learning,Intermediate
+798,Data Visualization with Python,Deep Learning,Beginner
+799,Data Visualization with Python,PyTorch,Beginner
+800,TensorFlow Crash Course,TensorFlow,Intermediate
+801,Neural Networks,Numpy,Beginner
+802,Advanced Python,Statistics,Beginner
+803,Numpy Fundamentals,Deep Learning,Advanced
+804,Data Visualization with Python,Python,Beginner
+805,TensorFlow Crash Course,PyTorch,Advanced
+806,TensorFlow Crash Course,Statistics,Intermediate
+807,PyTorch for Deep Learning,Python,Intermediate
+808,Advanced Python,TensorFlow,Intermediate
+809,PyTorch for Deep Learning,TensorFlow,Beginner
+810,Deep Learning Fundamentals,Linear Algebra,Beginner
+811,Machine Learning Intro,Linear Algebra,Beginner
+812,Advanced Python,Machine Learning,Advanced
+813,Advanced Python,TensorFlow,Beginner
+814,PyTorch for Deep Learning,Pandas,Beginner
+815,Numpy Fundamentals,Linear Algebra,Advanced
+816,Data Visualization with Python,Linear Algebra,Beginner
+817,Statistics for Data Science,Numpy,Advanced
+818,Numpy Fundamentals,Numpy,Advanced
+819,Data Visualization with Python,Data Analysis,Beginner
+820,Statistics for Data Science,Statistics,Intermediate
+821,Numpy Fundamentals,Data Analysis,Beginner
+822,Advanced Python,PyTorch,Advanced
+823,Pandas for Data Analysis,PyTorch,Advanced
+824,Numpy Fundamentals,Linear Algebra,Intermediate
+825,TensorFlow Crash Course,PyTorch,Advanced
+826,Deep Learning Fundamentals,Data Analysis,Beginner
+827,Advanced Python,Machine Learning,Intermediate
+828,Advanced Python,Data Analysis,Beginner
+829,Pandas for Data Analysis,Deep Learning,Intermediate
+830,Python Basics,Linear Algebra,Advanced
+831,Statistics for Data Science,PyTorch,Advanced
+832,SQL for Data Science,Data Analysis,Advanced
+833,TensorFlow Crash Course,Data Visualization,Intermediate
+834,SQL for Data Science,Data Analysis,Beginner
+835,Pandas for Data Analysis,Statistics,Beginner
+836,Python Basics,TensorFlow,Advanced
+837,Python Basics,Python,Intermediate
+838,Advanced Python,Numpy,Intermediate
+839,PyTorch for Deep Learning,PyTorch,Intermediate
+840,Neural Networks,TensorFlow,Intermediate
+841,Data Visualization with Python,Numpy,Beginner
+842,Pandas for Data Analysis,SQL,Advanced
+843,TensorFlow Crash Course,PyTorch,Intermediate
+844,Machine Learning Intro,Deep Learning,Beginner
+845,TensorFlow Crash Course,PyTorch,Advanced
+846,Deep Learning Fundamentals,Statistics,Beginner
+847,Statistics for Data Science,Numpy,Advanced
+848,Machine Learning Intro,TensorFlow,Beginner
+849,Statistics for Data Science,Python,Advanced
+850,Python Basics,Data Visualization,Intermediate
+851,Machine Learning Intro,TensorFlow,Advanced
+852,Pandas for Data Analysis,Python,Intermediate
+853,Statistics for Data Science,Data Visualization,Intermediate
+854,Neural Networks,Statistics,Beginner
+855,Python Basics,Data Visualization,Advanced
+856,Statistics for Data Science,Python,Intermediate
+857,TensorFlow Crash Course,Deep Learning,Advanced
+858,Neural Networks,Numpy,Advanced
+859,PyTorch for Deep Learning,Data Visualization,Advanced
+860,Deep Learning Fundamentals,Linear Algebra,Advanced
+861,Advanced Python,Statistics,Intermediate
+862,Neural Networks,Data Analysis,Intermediate
+863,Deep Learning Fundamentals,Numpy,Intermediate
+864,Python Basics,Numpy,Intermediate
+865,Statistics for Data Science,Data Analysis,Intermediate
+866,Deep Learning Fundamentals,Data Analysis,Intermediate
+867,Numpy Fundamentals,Deep Learning,Advanced
+868,Advanced Python,Data Visualization,Intermediate
+869,Neural Networks,Numpy,Beginner
+870,TensorFlow Crash Course,Linear Algebra,Advanced
+871,SQL for Data Science,SQL,Intermediate
+872,Advanced Python,Statistics,Intermediate
+873,TensorFlow Crash Course,Numpy,Intermediate
+874,Deep Learning Fundamentals,Machine Learning,Beginner
+875,Deep Learning Fundamentals,Numpy,Beginner
+876,SQL for Data Science,Data Visualization,Advanced
+877,PyTorch for Deep Learning,Data Visualization,Beginner
+878,SQL for Data Science,Machine Learning,Intermediate
+879,Python Basics,Linear Algebra,Advanced
+880,SQL for Data Science,TensorFlow,Advanced
+881,Pandas for Data Analysis,Python,Intermediate
+882,Advanced Python,Deep Learning,Advanced
+883,Data Visualization with Python,PyTorch,Intermediate
+884,SQL for Data Science,Deep Learning,Beginner
+885,Data Visualization with Python,Linear Algebra,Advanced
+886,Statistics for Data Science,Deep Learning,Beginner
+887,Statistics for Data Science,Pandas,Intermediate
+888,Advanced Python,PyTorch,Beginner
+889,Data Visualization with Python,SQL,Advanced
+890,Data Visualization with Python,Statistics,Beginner
+891,Statistics for Data Science,Data Analysis,Intermediate
+892,TensorFlow Crash Course,Machine Learning,Beginner
+893,Neural Networks,Machine Learning,Advanced
+894,Numpy Fundamentals,Data Visualization,Intermediate
+895,Neural Networks,Data Analysis,Intermediate
+896,Numpy Fundamentals,SQL,Beginner
+897,Machine Learning Intro,PyTorch,Advanced
+898,Python Basics,TensorFlow,Advanced
+899,Deep Learning Fundamentals,Deep Learning,Advanced
+900,Python Basics,Python,Advanced
+901,Advanced Python,Machine Learning,Intermediate
+902,Data Visualization with Python,PyTorch,Advanced
+903,Advanced Python,PyTorch,Beginner
+904,Neural Networks,TensorFlow,Intermediate
+905,TensorFlow Crash Course,Python,Beginner
+906,Statistics for Data Science,Linear Algebra,Beginner
+907,Advanced Python,Statistics,Intermediate
+908,Python Basics,Data Visualization,Advanced
+909,Advanced Python,Statistics,Beginner
+910,Data Visualization with Python,Python,Beginner
+911,Numpy Fundamentals,Linear Algebra,Advanced
+912,Neural Networks,Statistics,Beginner
+913,Data Visualization with Python,Data Visualization,Beginner
+914,Numpy Fundamentals,Data Analysis,Beginner
+915,Pandas for Data Analysis,Machine Learning,Intermediate
+916,Pandas for Data Analysis,Data Visualization,Advanced
+917,Data Visualization with Python,Deep Learning,Intermediate
+918,Statistics for Data Science,SQL,Advanced
+919,Pandas for Data Analysis,Deep Learning,Advanced
+920,PyTorch for Deep Learning,Data Visualization,Beginner
+921,Numpy Fundamentals,Statistics,Advanced
+922,Deep Learning Fundamentals,Data Visualization,Advanced
+923,PyTorch for Deep Learning,Data Analysis,Beginner
+924,Advanced Python,TensorFlow,Advanced
+925,PyTorch for Deep Learning,PyTorch,Intermediate
+926,TensorFlow Crash Course,Statistics,Intermediate
+927,Python Basics,Data Analysis,Advanced
+928,Data Visualization with Python,Statistics,Beginner
+929,Statistics for Data Science,Numpy,Intermediate
+930,Python Basics,Deep Learning,Beginner
+931,Statistics for Data Science,Statistics,Advanced
+932,PyTorch for Deep Learning,Pandas,Intermediate
+933,Deep Learning Fundamentals,Pandas,Advanced
+934,Data Visualization with Python,Deep Learning,Intermediate
+935,Data Visualization with Python,Data Visualization,Advanced
+936,Pandas for Data Analysis,Machine Learning,Advanced
+937,Advanced Python,Data Visualization,Advanced
+938,Python Basics,SQL,Advanced
+939,Neural Networks,Data Visualization,Beginner
+940,Python Basics,Machine Learning,Intermediate
+941,Python Basics,Statistics,Intermediate
+942,PyTorch for Deep Learning,Data Analysis,Intermediate
+943,Data Visualization with Python,Python,Intermediate
+944,TensorFlow Crash Course,SQL,Beginner
+945,Machine Learning Intro,Machine Learning,Advanced
+946,Numpy Fundamentals,Python,Advanced
+947,Advanced Python,SQL,Intermediate
+948,Python Basics,SQL,Beginner
+949,TensorFlow Crash Course,Machine Learning,Beginner
+950,Data Visualization with Python,Pandas,Intermediate
+951,Pandas for Data Analysis,Pandas,Advanced
+952,Data Visualization with Python,Machine Learning,Advanced
+953,Data Visualization with Python,Statistics,Beginner
+954,Data Visualization with Python,Python,Beginner
+955,Python Basics,Statistics,Advanced
+956,PyTorch for Deep Learning,SQL,Beginner
+957,Neural Networks,Linear Algebra,Advanced
+958,Data Visualization with Python,PyTorch,Advanced
+959,Neural Networks,Linear Algebra,Advanced
+960,Machine Learning Intro,PyTorch,Intermediate
+961,PyTorch for Deep Learning,TensorFlow,Advanced
+962,SQL for Data Science,Deep Learning,Intermediate
+963,PyTorch for Deep Learning,Data Analysis,Intermediate
+964,SQL for Data Science,Numpy,Beginner
+965,Python Basics,Linear Algebra,Advanced
+966,Python Basics,SQL,Beginner
+967,Numpy Fundamentals,PyTorch,Intermediate
+968,Machine Learning Intro,Deep Learning,Advanced
+969,Statistics for Data Science,SQL,Beginner
+970,SQL for Data Science,TensorFlow,Advanced
+971,SQL for Data Science,Statistics,Advanced
+972,Numpy Fundamentals,Deep Learning,Intermediate
+973,SQL for Data Science,PyTorch,Intermediate
+974,Advanced Python,Python,Beginner
+975,SQL for Data Science,Linear Algebra,Beginner
+976,Pandas for Data Analysis,Data Visualization,Beginner
+977,Numpy Fundamentals,Pandas,Beginner
+978,Data Visualization with Python,Data Visualization,Beginner
+979,Numpy Fundamentals,Machine Learning,Intermediate
+980,Statistics for Data Science,Statistics,Advanced
+981,TensorFlow Crash Course,Python,Beginner
+982,Pandas for Data Analysis,Data Visualization,Advanced
+983,Neural Networks,Machine Learning,Intermediate
+984,Deep Learning Fundamentals,SQL,Beginner
+985,SQL for Data Science,Deep Learning,Intermediate
+986,Deep Learning Fundamentals,Numpy,Advanced
+987,Neural Networks,Deep Learning,Beginner
+988,PyTorch for Deep Learning,TensorFlow,Intermediate
+989,Deep Learning Fundamentals,Statistics,Intermediate
+990,Neural Networks,Data Analysis,Beginner
+991,Python Basics,SQL,Beginner
+992,Python Basics,TensorFlow,Beginner
+993,SQL for Data Science,TensorFlow,Advanced
+994,Python Basics,Python,Beginner
+995,Python Basics,PyTorch,Advanced
+996,Deep Learning Fundamentals,Machine Learning,Advanced
+997,Machine Learning Intro,TensorFlow,Intermediate
+998,TensorFlow Crash Course,Deep Learning,Advanced
+999,PyTorch for Deep Learning,Statistics,Advanced
+1000,Deep Learning Fundamentals,Statistics,Advanced
+1001,Python Basics,Linear Algebra,Advanced
+1002,TensorFlow Crash Course,Python,Intermediate
+1003,Neural Networks,Machine Learning,Intermediate
+1004,Statistics for Data Science,Statistics,Intermediate
+1005,Pandas for Data Analysis,Data Visualization,Advanced
+1006,PyTorch for Deep Learning,Statistics,Beginner
+1007,Numpy Fundamentals,Data Visualization,Advanced
+1008,Advanced Python,Python,Intermediate
+1009,TensorFlow Crash Course,SQL,Advanced
+1010,Numpy Fundamentals,Python,Beginner
+1011,Python Basics,Python,Beginner
+1012,Advanced Python,Machine Learning,Intermediate
+1013,Deep Learning Fundamentals,SQL,Intermediate
+1014,Numpy Fundamentals,Data Visualization,Intermediate
+1015,Data Visualization with Python,Numpy,Advanced
+1016,Python Basics,Data Visualization,Beginner
+1017,SQL for Data Science,Deep Learning,Beginner
+1018,Data Visualization with Python,Pandas,Advanced
+1019,SQL for Data Science,SQL,Beginner
+1020,SQL for Data Science,Python,Advanced
+1021,PyTorch for Deep Learning,Machine Learning,Beginner
+1022,Statistics for Data Science,PyTorch,Beginner
+1023,TensorFlow Crash Course,Data Analysis,Advanced
+1024,Python Basics,Machine Learning,Beginner
+1025,Statistics for Data Science,Numpy,Beginner
+1026,Advanced Python,Deep Learning,Advanced
+1027,SQL for Data Science,Deep Learning,Beginner
+1028,Deep Learning Fundamentals,Pandas,Beginner
+1029,Deep Learning Fundamentals,SQL,Intermediate
+1030,SQL for Data Science,Linear Algebra,Beginner
+1031,Deep Learning Fundamentals,SQL,Advanced
+1032,Pandas for Data Analysis,Linear Algebra,Beginner
+1033,Neural Networks,Statistics,Beginner
+1034,Numpy Fundamentals,Statistics,Intermediate
+1035,Data Visualization with Python,Numpy,Beginner
+1036,Machine Learning Intro,Machine Learning,Beginner
+1037,SQL for Data Science,Numpy,Beginner
+1038,Numpy Fundamentals,Linear Algebra,Intermediate
+1039,SQL for Data Science,Statistics,Intermediate
+1040,Numpy Fundamentals,Numpy,Intermediate
+1041,Machine Learning Intro,Statistics,Advanced
+1042,TensorFlow Crash Course,SQL,Advanced
+1043,PyTorch for Deep Learning,PyTorch,Advanced
+1044,Machine Learning Intro,Pandas,Advanced
+1045,TensorFlow Crash Course,Deep Learning,Intermediate
+1046,PyTorch for Deep Learning,Data Visualization,Intermediate
+1047,Advanced Python,Python,Intermediate
+1048,Machine Learning Intro,Deep Learning,Intermediate
+1049,Advanced Python,Data Analysis,Advanced
+1050,Neural Networks,Python,Advanced
+1051,Deep Learning Fundamentals,TensorFlow,Advanced
+1052,Advanced Python,Statistics,Beginner
+1053,Numpy Fundamentals,TensorFlow,Beginner
+1054,Python Basics,Python,Intermediate
+1055,Statistics for Data Science,TensorFlow,Beginner
+1056,SQL for Data Science,Pandas,Advanced
+1057,Neural Networks,Python,Beginner
+1058,Statistics for Data Science,Machine Learning,Intermediate
+1059,Python Basics,PyTorch,Intermediate
+1060,PyTorch for Deep Learning,Deep Learning,Advanced
+1061,Pandas for Data Analysis,Statistics,Intermediate
+1062,Numpy Fundamentals,Linear Algebra,Intermediate
+1063,Pandas for Data Analysis,Machine Learning,Beginner
+1064,Python Basics,Statistics,Beginner
+1065,Machine Learning Intro,Pandas,Beginner
+1066,Numpy Fundamentals,Numpy,Beginner
+1067,SQL for Data Science,PyTorch,Beginner
+1068,Data Visualization with Python,PyTorch,Advanced
+1069,SQL for Data Science,Statistics,Intermediate
+1070,PyTorch for Deep Learning,Pandas,Intermediate
+1071,SQL for Data Science,Data Visualization,Intermediate
+1072,Machine Learning Intro,Numpy,Beginner
+1073,Deep Learning Fundamentals,Pandas,Beginner
+1074,Deep Learning Fundamentals,Numpy,Advanced
+1075,Numpy Fundamentals,Python,Beginner
+1076,Neural Networks,Data Analysis,Beginner
+1077,Deep Learning Fundamentals,Linear Algebra,Advanced
+1078,Data Visualization with Python,Data Visualization,Beginner
+1079,Deep Learning Fundamentals,Data Analysis,Intermediate
+1080,Pandas for Data Analysis,Pandas,Advanced
+1081,TensorFlow Crash Course,Python,Beginner
+1082,SQL for Data Science,Data Analysis,Beginner
+1083,Advanced Python,SQL,Intermediate
+1084,Machine Learning Intro,TensorFlow,Beginner
+1085,Numpy Fundamentals,Data Visualization,Advanced
+1086,Statistics for Data Science,Data Analysis,Beginner
+1087,Advanced Python,TensorFlow,Intermediate
+1088,PyTorch for Deep Learning,Machine Learning,Beginner
+1089,Machine Learning Intro,Numpy,Beginner
+1090,Advanced Python,Numpy,Beginner
+1091,Statistics for Data Science,Statistics,Beginner
+1092,Pandas for Data Analysis,TensorFlow,Intermediate
+1093,Data Visualization with Python,Python,Beginner
+1094,TensorFlow Crash Course,Data Analysis,Beginner
+1095,TensorFlow Crash Course,SQL,Beginner
+1096,SQL for Data Science,Python,Beginner
+1097,SQL for Data Science,Data Visualization,Advanced
+1098,PyTorch for Deep Learning,PyTorch,Intermediate
+1099,Statistics for Data Science,Python,Intermediate
+1100,TensorFlow Crash Course,Python,Advanced
+1101,SQL for Data Science,Deep Learning,Intermediate
+1102,Deep Learning Fundamentals,Data Analysis,Beginner
+1103,Pandas for Data Analysis,Linear Algebra,Intermediate
+1104,Python Basics,Pandas,Advanced
+1105,Statistics for Data Science,Linear Algebra,Advanced
+1106,Data Visualization with Python,Deep Learning,Advanced
+1107,Numpy Fundamentals,Data Visualization,Intermediate
+1108,Deep Learning Fundamentals,PyTorch,Beginner
+1109,Python Basics,Deep Learning,Intermediate
+1110,TensorFlow Crash Course,Machine Learning,Beginner
+1111,Python Basics,Deep Learning,Intermediate
+1112,Advanced Python,TensorFlow,Beginner
+1113,Machine Learning Intro,Pandas,Intermediate
+1114,Numpy Fundamentals,Numpy,Intermediate
+1115,Numpy Fundamentals,PyTorch,Beginner
+1116,Numpy Fundamentals,Data Visualization,Beginner
+1117,Machine Learning Intro,PyTorch,Advanced
+1118,Machine Learning Intro,Pandas,Intermediate
+1119,Data Visualization with Python,Data Visualization,Beginner
+1120,Statistics for Data Science,Data Analysis,Intermediate
+1121,Python Basics,Data Visualization,Intermediate
+1122,Statistics for Data Science,Pandas,Advanced
+1123,Advanced Python,Data Visualization,Beginner
+1124,Deep Learning Fundamentals,Data Visualization,Intermediate
+1125,Machine Learning Intro,Machine Learning,Intermediate
+1126,Python Basics,Data Visualization,Intermediate
+1127,PyTorch for Deep Learning,Linear Algebra,Intermediate
+1128,Numpy Fundamentals,Linear Algebra,Beginner
+1129,SQL for Data Science,PyTorch,Beginner
+1130,Data Visualization with Python,SQL,Beginner
+1131,PyTorch for Deep Learning,Data Visualization,Beginner
+1132,Neural Networks,TensorFlow,Beginner
+1133,Python Basics,Python,Advanced
+1134,Statistics for Data Science,PyTorch,Intermediate
+1135,Statistics for Data Science,Pandas,Beginner
+1136,SQL for Data Science,PyTorch,Advanced
+1137,Machine Learning Intro,Machine Learning,Advanced
+1138,Deep Learning Fundamentals,Machine Learning,Advanced
+1139,PyTorch for Deep Learning,SQL,Intermediate
+1140,Statistics for Data Science,SQL,Beginner
+1141,Deep Learning Fundamentals,Linear Algebra,Beginner
+1142,Machine Learning Intro,Deep Learning,Advanced
+1143,SQL for Data Science,Statistics,Beginner
+1144,Python Basics,SQL,Intermediate
+1145,Data Visualization with Python,Numpy,Intermediate
+1146,Pandas for Data Analysis,Data Visualization,Advanced
+1147,SQL for Data Science,TensorFlow,Intermediate
+1148,Deep Learning Fundamentals,Statistics,Advanced
+1149,Statistics for Data Science,SQL,Beginner
+1150,Data Visualization with Python,SQL,Advanced
+1151,Advanced Python,Numpy,Intermediate
+1152,Deep Learning Fundamentals,Data Analysis,Beginner
+1153,Neural Networks,Pandas,Intermediate
+1154,Neural Networks,Data Visualization,Beginner
+1155,Deep Learning Fundamentals,Python,Advanced
+1156,Data Visualization with Python,Data Visualization,Advanced
+1157,Statistics for Data Science,Numpy,Advanced
+1158,SQL for Data Science,Pandas,Advanced
+1159,PyTorch for Deep Learning,SQL,Intermediate
+1160,Pandas for Data Analysis,Statistics,Beginner
+1161,Deep Learning Fundamentals,TensorFlow,Beginner
+1162,Neural Networks,Python,Beginner
+1163,SQL for Data Science,Numpy,Intermediate
+1164,TensorFlow Crash Course,Deep Learning,Intermediate
+1165,Python Basics,Numpy,Intermediate
+1166,Numpy Fundamentals,Numpy,Beginner
+1167,TensorFlow Crash Course,Deep Learning,Intermediate
+1168,Data Visualization with Python,Deep Learning,Advanced
+1169,Data Visualization with Python,Linear Algebra,Beginner
+1170,Machine Learning Intro,PyTorch,Intermediate
+1171,TensorFlow Crash Course,Python,Intermediate
+1172,Statistics for Data Science,PyTorch,Intermediate
+1173,TensorFlow Crash Course,PyTorch,Beginner
+1174,PyTorch for Deep Learning,Deep Learning,Advanced
+1175,Deep Learning Fundamentals,Deep Learning,Beginner
+1176,TensorFlow Crash Course,TensorFlow,Intermediate
+1177,Deep Learning Fundamentals,TensorFlow,Advanced
+1178,Machine Learning Intro,Python,Intermediate
+1179,Data Visualization with Python,Pandas,Advanced
+1180,Pandas for Data Analysis,Data Visualization,Intermediate
+1181,Pandas for Data Analysis,Numpy,Intermediate
+1182,Deep Learning Fundamentals,TensorFlow,Advanced
+1183,Pandas for Data Analysis,Statistics,Beginner
+1184,Pandas for Data Analysis,Python,Beginner
+1185,Python Basics,Numpy,Beginner
+1186,Data Visualization with Python,Statistics,Advanced
+1187,Statistics for Data Science,TensorFlow,Beginner
+1188,Neural Networks,Data Analysis,Beginner
+1189,Advanced Python,Pandas,Advanced
+1190,Numpy Fundamentals,PyTorch,Beginner
+1191,Numpy Fundamentals,Numpy,Beginner
+1192,Statistics for Data Science,Data Visualization,Advanced
+1193,Pandas for Data Analysis,Numpy,Beginner
+1194,Pandas for Data Analysis,TensorFlow,Advanced
+1195,Statistics for Data Science,Pandas,Advanced
+1196,Deep Learning Fundamentals,SQL,Advanced
+1197,Deep Learning Fundamentals,SQL,Beginner
+1198,Numpy Fundamentals,Machine Learning,Beginner
+1199,Data Visualization with Python,Pandas,Intermediate

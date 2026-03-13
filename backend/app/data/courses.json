@@ -1,0 +1,64 @@
+[
+  {
+    "skill": "python",
+    "title": "Python Full Course for Beginners",
+    "description": "Complete beginner friendly Python programming course covering variables, loops, functions and basic projects.",
+    "difficulty": "beginner",
+    "duration": "6 hours",
+    "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+  },
+
+  {
+    "skill": "numpy",
+    "title": "NumPy Tutorial for Data Science",
+    "description": "Learn NumPy arrays, indexing, broadcasting and numerical computing for data science.",
+    "difficulty": "beginner",
+    "duration": "2 hours",
+    "youtube": "https://www.youtube.com/watch?v=QUT1VHiLmmI"
+  },
+
+  {
+    "skill": "pandas",
+    "title": "Pandas Data Analysis Full Tutorial",
+    "description": "Learn Pandas for data manipulation, cleaning, filtering and data analysis tasks.",
+    "difficulty": "intermediate",
+    "duration": "4 hours",
+    "youtube": "https://www.youtube.com/watch?v=vmEHCJofslg"
+  },
+
+  {
+    "skill": "statistics",
+    "title": "Statistics for Data Science",
+    "description": "Understand probability, distributions, hypothesis testing and statistical thinking for machine learning.",
+    "difficulty": "intermediate",
+    "duration": "3 hours",
+    "youtube": "https://www.youtube.com/watch?v=xxpc-HPKN28"
+  },
+
+  {
+    "skill": "machine_learning",
+    "title": "Machine Learning Full Course",
+    "description": "Supervised and unsupervised learning, regression, classification, clustering and model evaluation.",
+    "difficulty": "intermediate",
+    "duration": "7 hours",
+    "youtube": "https://www.youtube.com/watch?v=GwIo3gDZCVQ"
+  },
+
+  {
+    "skill": "deep_learning",
+    "title": "Deep Learning Crash Course",
+    "description": "Neural networks, backpropagation, CNNs and deep learning fundamentals explained visually.",
+    "difficulty": "advanced",
+    "duration": "3 hours",
+    "youtube": "https://www.youtube.com/watch?v=aircAruvnKk"
+  },
+
+  {
+    "skill": "data_analysis",
+    "title": "Data Analysis with Python",
+    "description": "Use Python, Pandas and visualization libraries to analyze real-world datasets.",
+    "difficulty": "intermediate",
+    "duration": "5 hours",
+    "youtube": "https://www.youtube.com/watch?v=r-uOLxNrNk8"
+  }
+]

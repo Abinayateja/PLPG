@@ -1,0 +1,128 @@
+{
+  "skills": {
+
+    "python": {
+      "difficulty": "beginner",
+      "category": "programming",
+      "prerequisites": []
+    },
+
+    "numpy": {
+      "difficulty": "beginner",
+      "category": "data_science",
+      "prerequisites": ["python"]
+    },
+
+    "pandas": {
+      "difficulty": "intermediate",
+      "category": "data_science",
+      "prerequisites": ["numpy"]
+    },
+
+    "statistics": {
+      "difficulty": "intermediate",
+      "category": "mathematics",
+      "prerequisites": ["python"]
+    },
+
+    "data_analysis": {
+      "difficulty": "intermediate",
+      "category": "data_science",
+      "prerequisites": ["pandas", "statistics"]
+    },
+
+    "machine_learning": {
+      "difficulty": "advanced",
+      "category": "ai",
+      "prerequisites": ["statistics", "data_analysis"]
+    },
+
+    "deep_learning": {
+      "difficulty": "advanced",
+      "category": "ai",
+      "prerequisites": ["machine_learning"]
+    },
+
+    "tensorflow": {
+      "difficulty": "advanced",
+      "category": "ai_framework",
+      "prerequisites": ["machine_learning"]
+    },
+
+    "pytorch": {
+      "difficulty": "advanced",
+      "category": "ai_framework",
+      "prerequisites": ["machine_learning"]
+    },
+
+    "nlp": {
+      "difficulty": "advanced",
+      "category": "ai_specialization",
+      "prerequisites": ["deep_learning"]
+    },
+
+    "computer_vision": {
+      "difficulty": "advanced",
+      "category": "ai_specialization",
+      "prerequisites": ["deep_learning"]
+    },
+
+    "html": {
+      "difficulty": "beginner",
+      "category": "web",
+      "prerequisites": []
+    },
+
+    "css": {
+      "difficulty": "beginner",
+      "category": "web",
+      "prerequisites": ["html"]
+    },
+
+    "javascript": {
+      "difficulty": "intermediate",
+      "category": "web",
+      "prerequisites": ["html", "css"]
+    },
+
+    "react": {
+      "difficulty": "intermediate",
+      "category": "web_framework",
+      "prerequisites": ["javascript"]
+    }
+
+  },
+
+  "career_paths": {
+
+    "ai_engineer": [
+      "python",
+      "numpy",
+      "pandas",
+      "statistics",
+      "data_analysis",
+      "machine_learning",
+      "deep_learning",
+      "tensorflow",
+      "pytorch"
+    ],
+
+    "data_scientist": [
+      "python",
+      "numpy",
+      "pandas",
+      "statistics",
+      "data_analysis",
+      "machine_learning",
+      "deep_learning"
+    ],
+
+    "web_developer": [
+      "html",
+      "css",
+      "javascript",
+      "react"
+    ]
+
+  }
+}
