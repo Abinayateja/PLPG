@@ -3,10 +3,13 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
 import { Button } from "@/components/ui/button";
 import ParticlesBackground from "@/components/ParticlesBackground";
 import SkillVaultLoader from "@/components/SkillVaultLoader";
+import { auth, db } from "@/lib/firebase";
+import { doc, updateDoc } from "firebase/firestore";
+import { setDoc } from "firebase/firestore";
+import { useUserFlow } from "@/context/UserFlowContext";
 import {
   Sparkles,
   ArrowRight,
@@ -121,6 +124,7 @@ const Onboarding = () => {
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(false);
   const [direction, setDirection] = useState(1);
+  const { refresh } = useUserFlow(); // add this at top
 
   const steps: Step[] = baseSteps.filter((step) => {
     if (step.key === "year") {
@@ -145,34 +149,51 @@ const Onboarding = () => {
   };
 
   const next = async () => {
-    if (currentStep < totalSteps - 1) {
-      setDirection(1);
-      setCurrentStep(currentStep + 1);
-    } else {
-      setLoading(true);
+  if (currentStep < totalSteps - 1) {
+    setDirection(1);
+    setCurrentStep(currentStep + 1);
+  } else {
+    setLoading(true);
 
-      const {
-        data: { user },
-      } = await supabase.auth.getUser();
+    try {
+      const user = auth.currentUser;
 
-      if (user) {
-        await supabase.from("profiles").upsert({
-          id: user.id,
-          email: user.email,
-          goal: answers.goal,
-          education: answers.education,
-          year: answers.year || null,
-          skill_level: answers.skill_level,
-          time_available: answers.time,
-          purpose: answers.purpose,
-        });
+      // 🔥 WAIT UNTIL USER EXISTS
+      if (!user) {
+        console.log("User not authenticated. Please login again.");
+        return;
       }
+
+      
+
+await setDoc(
+  doc(db, "users", user.uid),
+  {
+    goal: answers.goal,
+    education: answers.education,
+    year: answers.year || null,
+    skill_level: answers.skill_level,
+    time_available: answers.time,
+    purpose: answers.purpose,
+    onboardingCompleted: true,
+  },
+  { merge: true } // 🔥 THIS IS THE MAGIC
+);
 
       localStorage.setItem("userProfile", JSON.stringify(answers));
 
-      router.push("/diagnostic");
+      console.log("✅ Onboarding saved");
+
+      // 🔥 FORCE NAVIGATION
+      await refresh();
+      router.replace("/");
+
+    } catch (err) {
+      console.error("❌ Onboarding failed:", err);
+      setLoading(false);
     }
-  };
+  }
+};
 
   if (loading) {
     return (

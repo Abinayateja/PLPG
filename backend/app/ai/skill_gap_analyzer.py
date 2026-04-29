@@ -1,13 +1,26 @@
-from .knowledge_graph import KnowledgeGraph
+def get_all_prerequisites(graph, skill):
+
+    visited = set()
+    stack = [skill]
+
+    g = graph.get_graph()   # ✅ extract internal graph
+
+    while stack:
+        node = stack.pop()
+
+        for parent in g.predecessors(node):
+            if parent not in visited:
+                visited.add(parent)
+                stack.append(parent)
+
+    return visited
+
 
 def analyze_skill_gap(user_skills, goal_skill, graph):
 
-    required = list(graph.predecessors(goal_skill))
+    all_required = graph.get_prerequisites(goal_skill)
 
-    gap = []
-
-    for skill in required:
-        if skill not in user_skills:
-            gap.append(skill)
+    gap = [s for s in all_required if s not in user_skills]
 
     return gap
+

@@ -107,7 +107,7 @@
   }
 
   .input-dark {
-    @apply w-full p-3 bg-input border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary/60 focus:ring-1 focus:ring-primary/30 transition-all duration-200;
+    @apply w-full pl-12 pr-3 py-3 bg-input border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary/60 focus:ring-1 focus:ring-primary/30 transition-all duration-200;
   }
 
   .neon-text-cyan {

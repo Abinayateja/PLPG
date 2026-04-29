@@ -1,76 +1,34 @@
-from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
-from typing import List
+# backend/app/routes/diagnostic.py
+from fastapi import APIRouter
+import json, os, random
 
-from app.ai.ai_question_generator import generate_ai_question
-from app.ai.diagnostic_engine import evaluate_answers
+router = APIRouter(prefix="/diagnostic", tags=["diagnostic"])
 
-router = APIRouter(prefix="/diagnostic", tags=["Diagnostic"])
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_PATH = os.path.join(BASE_DIR, "data", "questions.json")
 
+with open(DATA_PATH, "r") as f:
+    ALL_QUESTIONS = json.load(f)
 
-class AnswerRequest(BaseModel):
-    questions: List[dict]
-    answers: List[str]
+SKILL_MAP = {
+    "AI Engineer":      "machine learning",
+    "Data Scientist":   "machine learning",
+    "Web Developer":    "javascript",
+    "Mobile Developer": "javascript",
+    "DevOps Engineer":  "devops",
+    "Cybersecurity":    "devops",
+}
 
+def pick_questions(skill: str, count: int = 5):
+    skill = skill.strip().lower()
+    pool = [q for q in ALL_QUESTIONS if q.get("skill", "").strip().lower() == skill]
+    if not pool:
+        # fallback: just grab any 5
+        pool = ALL_QUESTIONS
+    return random.sample(pool, min(count, len(pool)))
 
-@router.get("/generate/{skill}")
-def generate_questions(skill: str):
-
-    questions = []
-
-    try:
-
-        for _ in range(5):
-
-            q = generate_ai_question(skill, "medium")
-
-            questions.append(q)
-
-    except Exception as e:
-
-        print("Question generation error:", e)
-
-    # remove duplicate questions
-    unique_questions = list(
-        {q["question"]: q for q in questions}.values()
-    )
-
-    if len(unique_questions) == 0:
-
-        raise HTTPException(
-            status_code=500,
-            detail="Question generator failed"
-        )
-
-    return {
-        "skill": skill,
-        "total_questions": len(unique_questions),
-        "questions": unique_questions
-    }
-
-
-@router.post("/submit")
-def submit_answers(data: AnswerRequest):
-
-    if len(data.questions) == 0:
-
-        raise HTTPException(
-            status_code=400,
-            detail="No questions provided"
-        )
-
-    if len(data.answers) != len(data.questions):
-
-        raise HTTPException(
-            status_code=400,
-            detail="Answers count does not match questions"
-        )
-
-    result = evaluate_answers(data.questions, data.answers)
-
-    return {
-        "score": result["score"],
-        "total": result["total"],
-        "confidence": result["confidence"],
-        "level": result["level"]
-    }
+@router.get("/start/{skill}")
+def start(skill: str):
+    questions = pick_questions(skill)
+    # store in a simple in-memory session keyed by skill
+    return {"questions": questions}

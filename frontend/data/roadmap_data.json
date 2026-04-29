@@ -1,0 +1,1786 @@
+{
+  "AI Engineer": {
+    "goal": "AI Engineer",
+    "title": "AI Engineer Career Roadmap",
+    "subtitle": "A 4-phase learning journey to become a skilled AI Engineer",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations of Programming and Math",
+        "description": "Building a strong foundation in programming, mathematics, and data structures",
+        "year": "1st Year",
+        "skills": [
+          {
+            "id": "python-programming",
+            "label": "Python Programming",
+            "description": "Learning the basics of Python programming language",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 40,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "mathematics-for-ai",
+            "label": "Mathematics for AI",
+            "description": "Understanding the mathematical concepts required for AI, including linear algebra and calculus",
+            "prerequisites": [],
+            "xp": 15,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "data-structures",
+            "label": "Data Structures",
+            "description": "Learning data structures such as arrays, linked lists, stacks, and queues",
+            "prerequisites": [
+              "python-programming"
+            ],
+            "xp": 12,
+            "estimatedHours": 30,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "algorithms",
+            "label": "Algorithms",
+            "description": "Learning basic algorithms such as sorting, searching, and graph traversal",
+            "prerequisites": [
+              "data-structures"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "statistics",
+            "label": "Statistics",
+            "description": "Understanding statistical concepts such as probability, inference, and regression",
+            "prerequisites": [
+              "mathematics-for-ai"
+            ],
+            "xp": 10,
+            "estimatedHours": 30,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "data-preprocessing",
+            "label": "Data Preprocessing",
+            "description": "Learning techniques for data cleaning, feature scaling, and data transformation",
+            "prerequisites": [
+              "statistics"
+            ],
+            "xp": 12,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Machine Learning Fundamentals",
+        "description": "Learning the basics of machine learning, including supervised and unsupervised learning",
+        "year": "2nd Year",
+        "skills": [
+          {
+            "id": "machine-learning",
+            "label": "Machine Learning",
+            "description": "Introduction to machine learning, including types of learning and common algorithms",
+            "prerequisites": [
+              "python-programming",
+              "mathematics-for-ai"
+            ],
+            "xp": 20,
+            "estimatedHours": 80,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "scikit-learn",
+            "label": "Scikit-learn",
+            "description": "Learning the scikit-learn library for machine learning in Python",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "deep-learning",
+            "label": "Deep Learning",
+            "description": "Introduction to deep learning, including neural networks and convolutional neural networks",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 25,
+            "estimatedHours": 100,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "tensorflow",
+            "label": "TensorFlow",
+            "description": "Learning the TensorFlow library for deep learning in Python",
+            "prerequisites": [
+              "deep-learning"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "natural-language-processing",
+            "label": "Natural Language Processing",
+            "description": "Introduction to natural language processing, including text preprocessing and sentiment analysis",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "computer-vision",
+            "label": "Computer Vision",
+            "description": "Introduction to computer vision, including image processing and object detection",
+            "prerequisites": [
+              "deep-learning"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Specialized AI Topics",
+        "description": "Learning specialized AI topics, including reinforcement learning and transfer learning",
+        "year": "3rd Year",
+        "skills": [
+          {
+            "id": "reinforcement-learning",
+            "label": "Reinforcement Learning",
+            "description": "Learning reinforcement learning, including Q-learning and policy gradients",
+            "prerequisites": [
+              "deep-learning"
+            ],
+            "xp": 25,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "transfer-learning",
+            "label": "Transfer Learning",
+            "description": "Learning transfer learning, including fine-tuning pre-trained models",
+            "prerequisites": [
+              "deep-learning"
+            ],
+            "xp": 20,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "attention-mechanisms",
+            "label": "Attention Mechanisms",
+            "description": "Learning attention mechanisms, including self-attention and transformers",
+            "prerequisites": [
+              "deep-learning"
+            ],
+            "xp": 25,
+            "estimatedHours": 60,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "generative-models",
+            "label": "Generative Models",
+            "description": "Learning generative models, including GANs and VAEs",
+            "prerequisites": [
+              "deep-learning"
+            ],
+            "xp": 25,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "explainable-ai",
+            "label": "Explainable AI",
+            "description": "Learning explainable AI, including model interpretability and feature importance",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 20,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "ai-ethics",
+            "label": "AI Ethics",
+            "description": "Learning AI ethics, including bias, fairness, and transparency",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 15,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Advanced AI Engineering",
+        "description": "Learning advanced AI engineering topics, including model deployment and maintenance",
+        "year": "4th Year",
+        "skills": [
+          {
+            "id": "model-deployment",
+            "label": "Model Deployment",
+            "description": "Learning model deployment, including containerization and cloud deployment",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 20,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "model-maintenance",
+            "label": "Model Maintenance",
+            "description": "Learning model maintenance, including model monitoring and updating",
+            "prerequisites": [
+              "model-deployment"
+            ],
+            "xp": 20,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "ai-engineering",
+            "label": "AI Engineering",
+            "description": "Learning AI engineering, including design patterns and architecture",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 25,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "cloud-ai-platforms",
+            "label": "Cloud AI Platforms",
+            "description": "Learning cloud AI platforms, including AWS SageMaker and Google Cloud AI Platform",
+            "prerequisites": [
+              "model-deployment"
+            ],
+            "xp": 20,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "devops-for-ai",
+            "label": "DevOps for AI",
+            "description": "Learning DevOps for AI, including continuous integration and continuous deployment",
+            "prerequisites": [
+              "model-deployment"
+            ],
+            "xp": 20,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "ai-project-management",
+            "label": "AI Project Management",
+            "description": "Learning AI project management, including agile methodologies and project planning",
+            "prerequisites": [
+              "ai-engineering"
+            ],
+            "xp": 20,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          }
+        ]
+      }
+    ]
+  },
+  "Data Scientist": {
+    "goal": "Data Scientist",
+    "title": "Data Science Career Roadmap",
+    "subtitle": "A 4-phase learning journey to become a Data Scientist",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations of Data Science",
+        "description": "Build a strong foundation in programming, statistics, and data analysis",
+        "year": "1st Year",
+        "skills": [
+          {
+            "id": "python-programming",
+            "label": "Python Programming",
+            "description": "Learn the basics of Python programming",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 40,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "data-structures",
+            "label": "Data Structures",
+            "description": "Learn data structures such as arrays, lists, and dictionaries",
+            "prerequisites": [
+              "python-programming"
+            ],
+            "xp": 15,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "statistics",
+            "label": "Statistics",
+            "description": "Learn the basics of statistics and probability",
+            "prerequisites": [],
+            "xp": 12,
+            "estimatedHours": 30,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "data-analysis",
+            "label": "Data Analysis",
+            "description": "Learn to analyze and visualize data using Python",
+            "prerequisites": [
+              "python-programming",
+              "statistics"
+            ],
+            "xp": 18,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "sql",
+            "label": "SQL",
+            "description": "Learn the basics of SQL and database management",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "data-visualization",
+            "label": "Data Visualization",
+            "description": "Learn to create visualizations using Python libraries such as Matplotlib and Seaborn",
+            "prerequisites": [
+              "python-programming",
+              "data-analysis"
+            ],
+            "xp": 15,
+            "estimatedHours": 30,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Machine Learning and Modeling",
+        "description": "Learn machine learning and modeling techniques",
+        "year": "2nd Year",
+        "skills": [
+          {
+            "id": "machine-learning",
+            "label": "Machine Learning",
+            "description": "Learn the basics of machine learning and scikit-learn",
+            "prerequisites": [
+              "python-programming",
+              "statistics"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "deep-learning",
+            "label": "Deep Learning",
+            "description": "Learn the basics of deep learning and TensorFlow",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 25,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "model-evaluation",
+            "label": "Model Evaluation",
+            "description": "Learn to evaluate and optimize machine learning models",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 18,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "natural-language-processing",
+            "label": "Natural Language Processing",
+            "description": "Learn the basics of NLP and text analysis",
+            "prerequisites": [
+              "python-programming"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "unsupervised-learning",
+            "label": "Unsupervised Learning",
+            "description": "Learn clustering, dimensionality reduction, and other unsupervised learning techniques",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 18,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "recommendation-systems",
+            "label": "Recommendation Systems",
+            "description": "Learn to build recommendation systems using collaborative filtering and content-based filtering",
+            "prerequisites": [
+              "machine-learning"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Advanced Data Science and Engineering",
+        "description": "Learn advanced data science and engineering techniques",
+        "year": "3rd Year",
+        "skills": [
+          {
+            "id": "big-data",
+            "label": "Big Data",
+            "description": "Learn to work with large datasets using Hadoop and Spark",
+            "prerequisites": [
+              "python-programming",
+              "data-analysis"
+            ],
+            "xp": 25,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "no-sql-databases",
+            "label": "No-SQL Databases",
+            "description": "Learn to work with No-SQL databases such as MongoDB and Cassandra",
+            "prerequisites": [
+              "sql"
+            ],
+            "xp": 20,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "data-engineering",
+            "label": "Data Engineering",
+            "description": "Learn to design and implement data pipelines and architectures",
+            "prerequisites": [
+              "data-analysis",
+              "big-data"
+            ],
+            "xp": 25,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "cloud-computing",
+            "label": "Cloud Computing",
+            "description": "Learn to deploy and manage data science applications on cloud platforms such as AWS and GCP",
+            "prerequisites": [
+              "data-engineering"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "dev-ops",
+            "label": "Dev-Ops",
+            "description": "Learn to implement Dev-Ops practices such as continuous integration and deployment",
+            "prerequisites": [
+              "data-engineering"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "communication",
+            "label": "Communication",
+            "description": "Learn to effectively communicate data insights and results to stakeholders",
+            "prerequisites": [],
+            "xp": 15,
+            "estimatedHours": 30,
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Specialization and Leadership",
+        "description": "Specialize in a domain and develop leadership skills",
+        "year": "4th Year",
+        "skills": [
+          {
+            "id": "domain-expertise",
+            "label": "Domain Expertise",
+            "description": "Develop expertise in a specific domain such as healthcare or finance",
+            "prerequisites": [],
+            "xp": 25,
+            "estimatedHours": 100,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "leadership",
+            "label": "Leadership",
+            "description": "Develop leadership skills to manage and lead data science teams",
+            "prerequisites": [],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "strategic-thinking",
+            "label": "Strategic Thinking",
+            "description": "Learn to think strategically and develop data-driven solutions to business problems",
+            "prerequisites": [
+              "communication"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "innovation",
+            "label": "Innovation",
+            "description": "Learn to innovate and develop new data science solutions and products",
+            "prerequisites": [
+              "domain-expertise"
+            ],
+            "xp": 25,
+            "estimatedHours": 100,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "entrepreneurship",
+            "label": "Entrepreneurship",
+            "description": "Learn to develop and launch data science products and startups",
+            "prerequisites": [
+              "innovation"
+            ],
+            "xp": 25,
+            "estimatedHours": 100,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "mentoring",
+            "label": "Mentoring",
+            "description": "Learn to mentor and coach junior data scientists",
+            "prerequisites": [
+              "leadership"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "intermediate"
+          }
+        ]
+      }
+    ]
+  },
+  "Web Developer": {
+    "goal": "Web Developer",
+    "title": "Web Development Learning Roadmap",
+    "subtitle": "A 4-phase journey to becoming a skilled Web Developer",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations of Web Development",
+        "description": "Building a strong foundation in web development fundamentals",
+        "year": "1st Year",
+        "skills": [
+          {
+            "id": "html-basics",
+            "label": "HTML Basics",
+            "description": "Understanding the structure and syntax of HTML",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 8,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "css-basics",
+            "label": "CSS Basics",
+            "description": "Understanding the basics of CSS styling",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 8,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "javascript-basics",
+            "label": "JavaScript Basics",
+            "description": "Understanding the basics of JavaScript programming",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 8,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "version-control",
+            "label": "Version Control with Git",
+            "description": "Understanding the basics of version control using Git",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 4,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "web-dev-tools",
+            "label": "Web Development Tools",
+            "description": "Familiarity with web development tools such as code editors and browsers",
+            "prerequisites": [],
+            "xp": 5,
+            "estimatedHours": 2,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "web-security-basics",
+            "label": "Web Security Basics",
+            "description": "Understanding the basics of web security and best practices",
+            "prerequisites": [],
+            "xp": 5,
+            "estimatedHours": 2,
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Front-end Development",
+        "description": "Building a strong foundation in front-end development",
+        "year": "2nd Year",
+        "skills": [
+          {
+            "id": "responsive-design",
+            "label": "Responsive Design",
+            "description": "Understanding how to create responsive and mobile-friendly designs",
+            "prerequisites": [
+              "html-basics",
+              "css-basics"
+            ],
+            "xp": 15,
+            "estimatedHours": 12,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "javascript-dom",
+            "label": "JavaScript DOM Manipulation",
+            "description": "Understanding how to manipulate the DOM using JavaScript",
+            "prerequisites": [
+              "javascript-basics"
+            ],
+            "xp": 15,
+            "estimatedHours": 12,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "front-end-frameworks",
+            "label": "Front-end Frameworks",
+            "description": "Understanding how to use front-end frameworks such as React or Angular",
+            "prerequisites": [
+              "javascript-basics"
+            ],
+            "xp": 20,
+            "estimatedHours": 16,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "state-management",
+            "label": "State Management",
+            "description": "Understanding how to manage state in front-end applications",
+            "prerequisites": [
+              "javascript-basics"
+            ],
+            "xp": 15,
+            "estimatedHours": 12,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "web-performance",
+            "label": "Web Performance Optimization",
+            "description": "Understanding how to optimize web performance",
+            "prerequisites": [
+              "html-basics",
+              "css-basics",
+              "javascript-basics"
+            ],
+            "xp": 10,
+            "estimatedHours": 8,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "accessibility",
+            "label": "Web Accessibility",
+            "description": "Understanding how to create accessible web applications",
+            "prerequisites": [
+              "html-basics",
+              "css-basics"
+            ],
+            "xp": 10,
+            "estimatedHours": 8,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Back-end Development",
+        "description": "Building a strong foundation in back-end development",
+        "year": "3rd Year",
+        "skills": [
+          {
+            "id": "back-end-frameworks",
+            "label": "Back-end Frameworks",
+            "description": "Understanding how to use back-end frameworks such as Node.js or Ruby on Rails",
+            "prerequisites": [
+              "javascript-basics"
+            ],
+            "xp": 20,
+            "estimatedHours": 16,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "database-management",
+            "label": "Database Management",
+            "description": "Understanding how to manage and interact with databases",
+            "prerequisites": [
+              "javascript-basics"
+            ],
+            "xp": 20,
+            "estimatedHours": 16,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "api-design",
+            "label": "API Design",
+            "description": "Understanding how to design and implement APIs",
+            "prerequisites": [
+              "back-end-frameworks"
+            ],
+            "xp": 25,
+            "estimatedHours": 20,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "authentication-authorization",
+            "label": "Authentication and Authorization",
+            "description": "Understanding how to implement authentication and authorization in web applications",
+            "prerequisites": [
+              "back-end-frameworks"
+            ],
+            "xp": 20,
+            "estimatedHours": 16,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "testing-debugging",
+            "label": "Testing and Debugging",
+            "description": "Understanding how to test and debug web applications",
+            "prerequisites": [
+              "javascript-basics",
+              "back-end-frameworks"
+            ],
+            "xp": 15,
+            "estimatedHours": 12,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "dev-ops",
+            "label": "DevOps",
+            "description": "Understanding how to implement DevOps practices in web development",
+            "prerequisites": [
+              "back-end-frameworks"
+            ],
+            "xp": 20,
+            "estimatedHours": 16,
+            "difficulty": "advanced"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Specialization and Mastery",
+        "description": "Specializing and mastering web development skills",
+        "year": "4th Year",
+        "skills": [
+          {
+            "id": "machine-learning",
+            "label": "Machine Learning",
+            "description": "Understanding how to implement machine learning in web applications",
+            "prerequisites": [
+              "javascript-basics",
+              "back-end-frameworks"
+            ],
+            "xp": 30,
+            "estimatedHours": 24,
+            "difficulty": "expert"
+          },
+          {
+            "id": "cloud-computing",
+            "label": "Cloud Computing",
+            "description": "Understanding how to deploy and manage web applications in the cloud",
+            "prerequisites": [
+              "dev-ops"
+            ],
+            "xp": 25,
+            "estimatedHours": 20,
+            "difficulty": "expert"
+          },
+          {
+            "id": "web-assembly",
+            "label": "WebAssembly",
+            "description": "Understanding how to use WebAssembly in web development",
+            "prerequisites": [
+              "javascript-basics"
+            ],
+            "xp": 20,
+            "estimatedHours": 16,
+            "difficulty": "expert"
+          },
+          {
+            "id": "progressive-web-apps",
+            "label": "Progressive Web Apps",
+            "description": "Understanding how to create progressive web apps",
+            "prerequisites": [
+              "javascript-basics",
+              "front-end-frameworks"
+            ],
+            "xp": 25,
+            "estimatedHours": 20,
+            "difficulty": "expert"
+          },
+          {
+            "id": "web-vr-ar",
+            "label": "WebVR and WebAR",
+            "description": "Understanding how to create immersive web experiences with WebVR and WebAR",
+            "prerequisites": [
+              "javascript-basics",
+              "front-end-frameworks"
+            ],
+            "xp": 30,
+            "estimatedHours": 24,
+            "difficulty": "expert"
+          },
+          {
+            "id": "web-development-consulting",
+            "label": "Web Development Consulting",
+            "description": "Understanding how to provide consulting services as a web developer",
+            "prerequisites": [
+              "javascript-basics",
+              "back-end-frameworks",
+              "dev-ops"
+            ],
+            "xp": 30,
+            "estimatedHours": 24,
+            "difficulty": "expert"
+          }
+        ]
+      }
+    ]
+  },
+  "Mobile Developer": {
+    "goal": "Mobile Developer",
+    "title": "Mastering Mobile Development",
+    "subtitle": "A 4-Phase Learning Roadmap to Become a Skilled Mobile Developer",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations of Programming",
+        "description": "Building a strong foundation in programming concepts and mobile development basics",
+        "year": "1st Year",
+        "skills": [
+          {
+            "id": "programming-fundamentals",
+            "label": "Programming Fundamentals",
+            "description": "Understanding variables, data types, control structures, and functions",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 40,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "java-or-kotlin",
+            "label": "Java or Kotlin",
+            "description": "Learning the basics of Java or Kotlin programming language",
+            "prerequisites": [
+              "programming-fundamentals"
+            ],
+            "xp": 15,
+            "estimatedHours": 60,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "mobile-development-intro",
+            "label": "Introduction to Mobile Development",
+            "description": "Understanding the basics of mobile app development and platforms",
+            "prerequisites": [
+              "java-or-kotlin"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "android-studio",
+            "label": "Android Studio",
+            "description": "Getting familiar with the Android Studio IDE and its features",
+            "prerequisites": [
+              "mobile-development-intro"
+            ],
+            "xp": 5,
+            "estimatedHours": 10,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "version-control",
+            "label": "Version Control with Git",
+            "description": "Understanding the basics of version control and Git",
+            "prerequisites": [],
+            "xp": 5,
+            "estimatedHours": 10,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "agile-methodologies",
+            "label": "Agile Methodologies",
+            "description": "Introduction to agile development methodologies and principles",
+            "prerequisites": [],
+            "xp": 5,
+            "estimatedHours": 10,
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Mobile App Development",
+        "description": "Building mobile apps using Android or iOS platforms",
+        "year": "2nd Year",
+        "skills": [
+          {
+            "id": "android-app-development",
+            "label": "Android App Development",
+            "description": "Building Android apps using Java or Kotlin",
+            "prerequisites": [
+              "android-studio",
+              "java-or-kotlin"
+            ],
+            "xp": 20,
+            "estimatedHours": 120,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "ios-app-development",
+            "label": "iOS App Development",
+            "description": "Building iOS apps using Swift or Objective-C",
+            "prerequisites": [
+              "mobile-development-intro"
+            ],
+            "xp": 20,
+            "estimatedHours": 120,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "user-interface-design",
+            "label": "User Interface Design",
+            "description": "Understanding the principles of user interface design for mobile apps",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "user-experience-design",
+            "label": "User Experience Design",
+            "description": "Understanding the principles of user experience design for mobile apps",
+            "prerequisites": [
+              "user-interface-design"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "mobile-databases",
+            "label": "Mobile Databases",
+            "description": "Understanding the concepts of mobile databases and storage",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "api-integration",
+            "label": "API Integration",
+            "description": "Understanding how to integrate APIs in mobile apps",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Advanced Mobile Development",
+        "description": "Exploring advanced topics in mobile development",
+        "year": "3rd Year",
+        "skills": [
+          {
+            "id": "machine-learning",
+            "label": "Machine Learning",
+            "description": "Understanding the basics of machine learning and its applications in mobile development",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 20,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "augmented-reality",
+            "label": "Augmented Reality",
+            "description": "Understanding the concepts of augmented reality and its applications in mobile development",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 20,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "cloud-computing",
+            "label": "Cloud Computing",
+            "description": "Understanding the concepts of cloud computing and its applications in mobile development",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 20,
+            "estimatedHours": 80,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "security",
+            "label": "Mobile App Security",
+            "description": "Understanding the concepts of mobile app security and how to implement secure coding practices",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "testing",
+            "label": "Mobile App Testing",
+            "description": "Understanding the concepts of mobile app testing and how to implement testing strategies",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "devops",
+            "label": "DevOps for Mobile",
+            "description": "Understanding the concepts of DevOps and how to implement DevOps practices in mobile development",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Specialization and Leadership",
+        "description": "Specializing in a specific area of mobile development and developing leadership skills",
+        "year": "4th Year",
+        "skills": [
+          {
+            "id": "specialization",
+            "label": "Specialization in Mobile Development",
+            "description": "Specializing in a specific area of mobile development, such as gaming or enterprise apps",
+            "prerequisites": [
+              "android-app-development",
+              "ios-app-development"
+            ],
+            "xp": 25,
+            "estimatedHours": 100,
+            "difficulty": "expert"
+          },
+          {
+            "id": "technical-leadership",
+            "label": "Technical Leadership",
+            "description": "Developing technical leadership skills, including mentoring and leading teams",
+            "prerequisites": [
+              "devops"
+            ],
+            "xp": 20,
+            "estimatedHours": 80,
+            "difficulty": "expert"
+          },
+          {
+            "id": "communication",
+            "label": "Effective Communication",
+            "description": "Developing effective communication skills, including presenting and negotiating",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "project-management",
+            "label": "Project Management",
+            "description": "Understanding the principles of project management and how to manage mobile development projects",
+            "prerequisites": [
+              "devops"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "innovation",
+            "label": "Innovation and Entrepreneurship",
+            "description": "Understanding the principles of innovation and entrepreneurship in mobile development",
+            "prerequisites": [
+              "specialization"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "expert"
+          },
+          {
+            "id": "staying-up-to-date",
+            "label": "Staying Up-to-Date with Industry Trends",
+            "description": "Staying current with the latest trends and technologies in mobile development",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      }
+    ]
+  },
+  "DevOps Engineer": {
+    "goal": "DevOps Engineer",
+    "title": "DevOps Engineer Career Path",
+    "subtitle": "A 4-phase learning roadmap to become a skilled DevOps Engineer",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundational Skills",
+        "description": "Build a solid foundation in IT, programming, and scripting",
+        "year": "1st Year",
+        "skills": [
+          {
+            "id": "skill-linux",
+            "label": "Linux Fundamentals",
+            "description": "Understand Linux operating system basics",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "skill-python",
+            "label": "Python Programming",
+            "description": "Learn Python programming language basics",
+            "prerequisites": [],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "skill-git",
+            "label": "Git Version Control",
+            "description": "Learn Git version control system basics",
+            "prerequisites": [],
+            "xp": 5,
+            "estimatedHours": 8,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "skill-aws",
+            "label": "AWS Cloud Basics",
+            "description": "Understand Amazon Web Services (AWS) cloud basics",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "skill-agile",
+            "label": "Agile Methodologies",
+            "description": "Learn Agile software development methodologies",
+            "prerequisites": [],
+            "xp": 5,
+            "estimatedHours": 8,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "skill-terraform",
+            "label": "Terraform Basics",
+            "description": "Learn Terraform infrastructure as code (IaC) basics",
+            "prerequisites": [
+              "skill-aws"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "DevOps Tools and Practices",
+        "description": "Learn DevOps tools and practices for automation and deployment",
+        "year": "2nd Year",
+        "skills": [
+          {
+            "id": "skill-jenkins",
+            "label": "Jenkins Automation",
+            "description": "Learn Jenkins automation server basics",
+            "prerequisites": [
+              "skill-python",
+              "skill-git"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-docker",
+            "label": "Docker Containerization",
+            "description": "Learn Docker containerization basics",
+            "prerequisites": [
+              "skill-linux"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-kubernetes",
+            "label": "Kubernetes Orchestration",
+            "description": "Learn Kubernetes container orchestration basics",
+            "prerequisites": [
+              "skill-docker"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "skill-ansible",
+            "label": "Ansible Automation",
+            "description": "Learn Ansible automation basics",
+            "prerequisites": [
+              "skill-python",
+              "skill-linux"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-prometheus",
+            "label": "Prometheus Monitoring",
+            "description": "Learn Prometheus monitoring basics",
+            "prerequisites": [
+              "skill-linux"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-grafana",
+            "label": "Grafana Visualization",
+            "description": "Learn Grafana data visualization basics",
+            "prerequisites": [
+              "skill-prometheus"
+            ],
+            "xp": 5,
+            "estimatedHours": 8,
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Cloud and Security",
+        "description": "Learn cloud and security best practices for DevOps",
+        "year": "3rd Year",
+        "skills": [
+          {
+            "id": "skill-azure",
+            "label": "Azure Cloud Basics",
+            "description": "Understand Microsoft Azure cloud basics",
+            "prerequisites": [
+              "skill-aws"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-gcp",
+            "label": "GCP Cloud Basics",
+            "description": "Understand Google Cloud Platform (GCP) cloud basics",
+            "prerequisites": [
+              "skill-aws"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-security",
+            "label": "Security Fundamentals",
+            "description": "Learn security fundamentals for DevOps",
+            "prerequisites": [],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-compliance",
+            "label": "Compliance and Governance",
+            "description": "Learn compliance and governance best practices for DevOps",
+            "prerequisites": [
+              "skill-security"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-ci-cd",
+            "label": "CI/CD Pipelines",
+            "description": "Learn continuous integration and continuous deployment (CI/CD) pipeline best practices",
+            "prerequisites": [
+              "skill-jenkins",
+              "skill-git"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-infrastructure",
+            "label": "Infrastructure as Code (IaC)",
+            "description": "Learn infrastructure as code (IaC) best practices",
+            "prerequisites": [
+              "skill-terraform"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Advanced DevOps and Leadership",
+        "description": "Learn advanced DevOps and leadership skills for career growth",
+        "year": "4th Year",
+        "skills": [
+          {
+            "id": "skill-architect",
+            "label": "Cloud Architect",
+            "description": "Learn cloud architecture best practices",
+            "prerequisites": [
+              "skill-aws",
+              "skill-azure",
+              "skill-gcp"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "skill-devops-leader",
+            "label": "DevOps Leader",
+            "description": "Learn DevOps leadership and management best practices",
+            "prerequisites": [
+              "skill-ci-cd",
+              "skill-infrastructure"
+            ],
+            "xp": 20,
+            "estimatedHours": 60,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "skill-technical-debt",
+            "label": "Technical Debt Management",
+            "description": "Learn technical debt management best practices",
+            "prerequisites": [
+              "skill-security",
+              "skill-compliance"
+            ],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-communication",
+            "label": "Effective Communication",
+            "description": "Learn effective communication skills for DevOps teams",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-collaboration",
+            "label": "Collaboration and Teamwork",
+            "description": "Learn collaboration and teamwork best practices for DevOps teams",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "skill-innovation",
+            "label": "Innovation and Experimentation",
+            "description": "Learn innovation and experimentation best practices for DevOps teams",
+            "prerequisites": [
+              "skill-ci-cd",
+              "skill-infrastructure"
+            ],
+            "xp": 15,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          }
+        ]
+      }
+    ]
+  },
+  "Cybersecurity": {
+    "goal": "Cybersecurity",
+    "title": "Cybersecurity Career Roadmap",
+    "subtitle": "A 4-phase learning journey to become a cybersecurity expert",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations of Cybersecurity",
+        "description": "Build a strong foundation in computer systems, networks, and cybersecurity basics",
+        "year": "1st Year",
+        "skills": [
+          {
+            "id": "comp-sys",
+            "label": "Computer Systems",
+            "description": "Understanding computer hardware and software components",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 16,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "network-fund",
+            "label": "Network Fundamentals",
+            "description": "Understanding network protocols, devices, and architectures",
+            "prerequisites": [],
+            "xp": 12,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "cyber-sec-101",
+            "label": "Cybersecurity 101",
+            "description": "Introduction to cybersecurity concepts, threats, and best practices",
+            "prerequisites": [],
+            "xp": 10,
+            "estimatedHours": 12,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "linux-fund",
+            "label": "Linux Fundamentals",
+            "description": "Understanding Linux operating system and command-line interface",
+            "prerequisites": [],
+            "xp": 12,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "python-prog",
+            "label": "Python Programming",
+            "description": "Introduction to Python programming language and its applications",
+            "prerequisites": [],
+            "xp": 15,
+            "estimatedHours": 30,
+            "difficulty": "beginner"
+          },
+          {
+            "id": "info-sec",
+            "label": "Information Security",
+            "description": "Understanding information security principles, policies, and procedures",
+            "prerequisites": [],
+            "xp": 12,
+            "estimatedHours": 20,
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cybersecurity Essentials",
+        "description": "Dive deeper into cybersecurity topics, including threat analysis, vulnerability management, and security frameworks",
+        "year": "2nd Year",
+        "skills": [
+          {
+            "id": "threat-anal",
+            "label": "Threat Analysis",
+            "description": "Understanding threat intelligence, risk assessment, and mitigation strategies",
+            "prerequisites": [
+              "cyber-sec-101"
+            ],
+            "xp": 18,
+            "estimatedHours": 30,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "vuln-mgmt",
+            "label": "Vulnerability Management",
+            "description": "Understanding vulnerability scanning, assessment, and remediation techniques",
+            "prerequisites": [
+              "cyber-sec-101"
+            ],
+            "xp": 20,
+            "estimatedHours": 35,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "sec-frame",
+            "label": "Security Frameworks",
+            "description": "Understanding security frameworks, such as NIST, ISO 27001, and COBIT",
+            "prerequisites": [
+              "info-sec"
+            ],
+            "xp": 18,
+            "estimatedHours": 30,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "crypto-fund",
+            "label": "Cryptography Fundamentals",
+            "description": "Understanding cryptographic concepts, algorithms, and protocols",
+            "prerequisites": [
+              "comp-sys"
+            ],
+            "xp": 20,
+            "estimatedHours": 35,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "net-sec",
+            "label": "Network Security",
+            "description": "Understanding network security devices, protocols, and architectures",
+            "prerequisites": [
+              "network-fund"
+            ],
+            "xp": 20,
+            "estimatedHours": 35,
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "inc-resp",
+            "label": "Incident Response",
+            "description": "Understanding incident response planning, detection, and response strategies",
+            "prerequisites": [
+              "cyber-sec-101"
+            ],
+            "xp": 20,
+            "estimatedHours": 35,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Advanced Cybersecurity Topics",
+        "description": "Explore advanced cybersecurity topics, including cloud security, artificial intelligence, and security analytics",
+        "year": "3rd Year",
+        "skills": [
+          {
+            "id": "cloud-sec",
+            "label": "Cloud Security",
+            "description": "Understanding cloud security architectures, risks, and mitigation strategies",
+            "prerequisites": [
+              "net-sec"
+            ],
+            "xp": 25,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "ai-ml-sec",
+            "label": "AI and ML in Security",
+            "description": "Understanding the applications of artificial intelligence and machine learning in cybersecurity",
+            "prerequisites": [
+              "python-prog"
+            ],
+            "xp": 25,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "sec-anal",
+            "label": "Security Analytics",
+            "description": "Understanding security analytics, threat hunting, and incident response techniques",
+            "prerequisites": [
+              "inc-resp"
+            ],
+            "xp": 25,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "dev-sec",
+            "label": "DevSecOps",
+            "description": "Understanding DevSecOps practices, tools, and methodologies",
+            "prerequisites": [
+              "sec-frame"
+            ],
+            "xp": 25,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "iot-sec",
+            "label": "IoT Security",
+            "description": "Understanding IoT security risks, threats, and mitigation strategies",
+            "prerequisites": [
+              "net-sec"
+            ],
+            "xp": 25,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          },
+          {
+            "id": "red-team",
+            "label": "Red Teaming",
+            "description": "Understanding red teaming concepts, techniques, and tools",
+            "prerequisites": [
+              "inc-resp"
+            ],
+            "xp": 25,
+            "estimatedHours": 40,
+            "difficulty": "advanced"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Cybersecurity Expertise",
+        "description": "Develop expertise in specialized cybersecurity domains, such as threat intelligence, security architecture, and cybersecurity management",
+        "year": "4th Year",
+        "skills": [
+          {
+            "id": "threat-int",
+            "label": "Threat Intelligence",
+            "description": "Understanding threat intelligence concepts, tools, and techniques",
+            "prerequisites": [
+              "threat-anal"
+            ],
+            "xp": 30,
+            "estimatedHours": 50,
+            "difficulty": "expert"
+          },
+          {
+            "id": "sec-arch",
+            "label": "Security Architecture",
+            "description": "Understanding security architecture principles, patterns, and best practices",
+            "prerequisites": [
+              "sec-frame"
+            ],
+            "xp": 30,
+            "estimatedHours": 50,
+            "difficulty": "expert"
+          },
+          {
+            "id": "cyber-mgmt",
+            "label": "Cybersecurity Management",
+            "description": "Understanding cybersecurity management principles, frameworks, and best practices",
+            "prerequisites": [
+              "sec-frame"
+            ],
+            "xp": 30,
+            "estimatedHours": 50,
+            "difficulty": "expert"
+          },
+          {
+            "id": "pen-test",
+            "label": "Penetration Testing",
+            "description": "Understanding penetration testing concepts, tools, and techniques",
+            "prerequisites": [
+              "red-team"
+            ],
+            "xp": 30,
+            "estimatedHours": 50,
+            "difficulty": "expert"
+          },
+          {
+            "id": "cloud-arch",
+            "label": "Cloud Architecture",
+            "description": "Understanding cloud architecture principles, patterns, and best practices",
+            "prerequisites": [
+              "cloud-sec"
+            ],
+            "xp": 30,
+            "estimatedHours": 50,
+            "difficulty": "expert"
+          },
+          {
+            "id": "cyber-lead",
+            "label": "Cybersecurity Leadership",
+            "description": "Understanding cybersecurity leadership principles, frameworks, and best practices",
+            "prerequisites": [
+              "cyber-mgmt"
+            ],
+            "xp": 30,
+            "estimatedHours": 50,
+            "difficulty": "expert"
+          }
+        ]
+      }
+    ]
+  }
+}

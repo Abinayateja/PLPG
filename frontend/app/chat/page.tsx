@@ -3,10 +3,13 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { supabase } from "@/lib/supabase";
 import { Sparkles, Send, User, Bot, FileText, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SkillVaultLoader from "@/components/SkillVaultLoader";
+import { auth, db } from "@/lib/firebase";
+import { doc, getDoc } from "firebase/firestore";
+import { signOut } from "firebase/auth";
+import ProtectedRoute from "@/components/ProtectedRoute";
 
 interface ChatMessage {
   role: "user" | "ai";
@@ -24,38 +27,23 @@ const Chat = () => {
   const chatEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const fetchData = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (!session) {
-        router.push("/login");
-        return;
-      }
+  const fetchData = async () => {
+    const user = auth.currentUser;
+    if (!user) return;
 
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) return;
+    const userRef = doc(db, "users", user.uid);
+    const snap = await getDoc(userRef);
 
-      const { data: profileData } = await supabase
-        .from("profiles")
-        .select("*")
-        .eq("id", user.id)
-        .single();
+    const data = snap.data();
+    if (!data) return;
 
-      setProfile(profileData);
+    setProfile(data);
+    setSkills(data.skills || []);
+    setInitialLoading(false);
+  };
 
-      const { data: skillsData } = await supabase
-        .from("skill_profiles")
-        .select("skill")
-        .eq("user_id", user.id);
-
-      if (skillsData) {
-        const skillList = (skillsData as unknown as Array<{ skill: string }>).map((s) => s.skill);
-        setSkills(skillList);
-      }
-
-      setInitialLoading(false);
-    };
-    fetchData();
-  }, []);
+  fetchData();
+}, []);
 
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -73,11 +61,15 @@ const Chat = () => {
       const res = await fetch("http://127.0.0.1:8000/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userMsg, profile, skills }),
+        body: JSON.stringify({
+  message: userMsg,
+  profile,
+  user_skills: skills,
+}),
       });
 
       const data = await res.json();
-      const lines = data.reply.split("\n").filter((l: string) => l.trim() !== "");
+      const lines = data.response.split("\n").filter((l: string) => l.trim() !== "");
 
       let accumulated = "";
       setMessages((prev) => [...prev, { role: "ai", content: "" }]);
@@ -173,8 +165,8 @@ const Chat = () => {
         <div className="p-4 border-t border-border">
           <button
             onClick={async () => {
-              await supabase.auth.signOut();
-              router.push("/login");
+              await signOut(auth);
+router.push("/login");
             }}
             className="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-sm text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
           >
@@ -291,4 +283,10 @@ const Chat = () => {
   );
 };
 
-export default Chat;
+export default function ChatPage() {
+  return (
+    <ProtectedRoute>
+      <Chat />
+    </ProtectedRoute>
+  );
+}

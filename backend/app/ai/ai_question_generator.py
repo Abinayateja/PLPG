@@ -9,13 +9,13 @@ load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
-# fallback questions if AI fails
 fallback_questions = {
     "python": [
         {
             "question": "What does list comprehension return?",
             "options": ["List", "Tuple", "Dictionary", "Set"],
-            "answer": "List"
+            "answer": "List",
+            "level": "beginner"
         }
     ],
     "machine learning": [
@@ -27,7 +27,8 @@ fallback_questions = {
                 "Learning without labels",
                 "Random learning"
             ],
-            "answer": "Learning with labeled data"
+            "answer": "Learning with labeled data",
+            "level": "beginner"
         }
     ]
 }
@@ -38,12 +39,19 @@ def generate_ai_question(skill, level):
     prompt = f"""
 You are a technical interviewer.
 
-Generate ONE multiple choice question.
+Generate ONE multiple choice question STRICTLY for:
 
 Skill: {skill}
-Difficulty: {level}
+Level: {level}
 
-Return JSON ONLY.
+Rules:
+- Must match the skill
+- Must match the level
+- Beginner = basic concept
+- Intermediate = usage
+- Advanced = problem solving
+
+Return ONLY JSON:
 
 {{
  "question": "...",
@@ -57,7 +65,7 @@ Return JSON ONLY.
         completion = client.chat.completions.create(
             model="llama-3.1-8b-instant",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.7
+            temperature=0.3
         )
 
         content = completion.choices[0].message.content
@@ -69,9 +77,7 @@ Return JSON ONLY.
 
         data = json.loads(json_match.group())
 
-        # Convert options into frontend format
         options = []
-
         for opt in data["options"]:
             options.append({
                 "label": opt,
@@ -80,7 +86,9 @@ Return JSON ONLY.
 
         return {
             "question": data["question"],
-            "options": options
+            "options": options,
+            "answer": data["answer"],   # ✅ REQUIRED
+            "level": level              # ✅ REQUIRED
         }
 
     except Exception as e:
@@ -93,7 +101,6 @@ Return JSON ONLY.
         )[0]
 
         options = []
-
         for opt in fallback["options"]:
             options.append({
                 "label": opt,
@@ -102,5 +109,7 @@ Return JSON ONLY.
 
         return {
             "question": fallback["question"],
-            "options": options
+            "options": options,
+            "answer": fallback["answer"],
+            "level": fallback["level"]
         }

@@ -1,23 +1,20 @@
-def dfs(graph,node,visited,path):
+def generate_learning_path(graph, skills):
 
-    if node in visited:
-        return
+    visited = set()
+    path = []
 
-    visited.add(node)
+    def dfs(node):
+        if node in visited:
+            return
 
-    for child in graph.successors(node):
-        dfs(graph,child,visited,path)
+        visited.add(node)
 
-    path.append(node)
+        for parent in graph.predecessors(node):
+            dfs(parent)
 
-
-def generate_learning_path(graph,skills):
-
-    visited=set()
-
-    path=[]
+        path.append(node)
 
     for skill in skills:
-        dfs(graph,skill,visited,path)
+        dfs(skill)
 
-    return path[::-1]
+    return path

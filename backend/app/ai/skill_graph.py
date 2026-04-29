@@ -2,16 +2,24 @@ from .knowledge_graph import KnowledgeGraph
 
 kg = KnowledgeGraph()
 
-kg.add_edge("python","numpy")
-kg.add_edge("numpy","pandas")
-kg.add_edge("pandas","data_analysis")
+# ADD NODES
+kg.add_skill("python", "beginner")
+kg.add_skill("numpy", "intermediate")
+kg.add_skill("pandas", "intermediate")
+kg.add_skill("data_analysis", "intermediate")
 
-kg.add_edge("python","statistics")
-kg.add_edge("statistics","machine_learning")
-kg.add_edge("machine_learning","deep_learning")
+kg.add_skill("statistics", "beginner")
+kg.add_skill("machine_learning", "intermediate")
+kg.add_skill("deep_learning", "advanced")
 
-kg.add_edge("html","css")
-kg.add_edge("css","javascript")
-kg.add_edge("javascript","react")
+# ADD EDGES
+kg.add_edge("python", "numpy")
+kg.add_edge("numpy", "pandas")
+kg.add_edge("pandas", "data_analysis")
 
-skill_graph = kg.get_graph()
+kg.add_edge("python", "statistics")
+kg.add_edge("statistics", "machine_learning")
+kg.add_edge("machine_learning", "deep_learning")
+
+skill_graph = kg
+
