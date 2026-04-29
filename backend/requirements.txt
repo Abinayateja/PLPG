@@ -7,5 +7,4 @@ sqlalchemy
 pydantic
 python-multipart
 networkx
-torch
 faiss-cpu
