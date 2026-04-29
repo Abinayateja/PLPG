@@ -1,530 +1,634 @@
-// Knowledge graph data matching the FastAPI backend's skill_graph.py
-// Each goal has phases with skill nodes and prerequisite edges
-
-export interface SkillNode {
-  id: string;
-  label: string;
-  description: string;
-  duration: string;
-  resources: string[];
-  phase: number;
-  prerequisites: string[];
-}
-
-export interface RoadmapPhase {
-  id: number;
-  title: string;
-  description: string;
-  icon: string;
-  skills: SkillNode[];
-}
-
-export interface GoalRoadmap {
-  goal: string;
-  title: string;
-  subtitle: string;
-  phases: RoadmapPhase[];
-}
-
-const aiEngineerRoadmap: GoalRoadmap = {
-  goal: "AI Engineer",
-  title: "AI Engineer Roadmap",
-  subtitle: "From fundamentals to production AI systems",
-  phases: [
-    {
-      id: 1,
-      title: "Foundations",
-      description: "Core programming & math fundamentals",
-      icon: "🧱",
-      skills: [
-        {
-          id: "python",
-          label: "Python",
-          description: "Core language for AI/ML development",
-          duration: "3-4 weeks",
-          resources: ["Python Crash Course", "Automate the Boring Stuff"],
-          phase: 1,
-          prerequisites: [],
-        },
-        {
-          id: "statistics",
-          label: "Statistics & Probability",
-          description: "Statistical thinking for data-driven decisions",
-          duration: "2-3 weeks",
-          resources: ["Khan Academy Stats", "Think Stats"],
-          phase: 1,
-          prerequisites: [],
-        },
-        {
-          id: "linear-algebra",
-          label: "Linear Algebra",
-          description: "Vectors, matrices & transformations for ML",
-          duration: "2-3 weeks",
-          resources: ["3Blue1Brown", "MIT OCW 18.06"],
-          phase: 1,
-          prerequisites: [],
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: "Data Manipulation",
-      description: "Work with real-world data efficiently",
-      icon: "📊",
-      skills: [
-        {
-          id: "numpy",
-          label: "NumPy",
-          description: "Numerical computing & array operations",
-          duration: "1-2 weeks",
-          resources: ["NumPy User Guide", "Python Data Science Handbook"],
-          phase: 2,
-          prerequisites: ["python", "linear-algebra"],
-        },
-        {
-          id: "pandas",
-          label: "Pandas",
-          description: "Data manipulation & analysis library",
-          duration: "2-3 weeks",
-          resources: ["Pandas Documentation", "Kaggle Pandas Course"],
-          phase: 2,
-          prerequisites: ["numpy"],
-        },
-        {
-          id: "sql",
-          label: "SQL",
-          description: "Query and manage structured databases",
-          duration: "2 weeks",
-          resources: ["SQLBolt", "Mode SQL Tutorial"],
-          phase: 2,
-          prerequisites: ["python"],
-        },
-        {
-          id: "data-analysis",
-          label: "Data Analysis",
-          description: "Exploratory data analysis & visualization",
-          duration: "2-3 weeks",
-          resources: ["Kaggle EDA Course", "Matplotlib & Seaborn"],
-          phase: 2,
-          prerequisites: ["pandas", "statistics"],
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Machine Learning",
-      description: "Classical ML algorithms & pipelines",
-      icon: "🤖",
-      skills: [
-        {
-          id: "machine-learning",
-          label: "Machine Learning",
-          description: "Supervised & unsupervised learning algorithms",
-          duration: "4-6 weeks",
-          resources: ["Andrew Ng ML Course", "Hands-On ML (Géron)"],
-          phase: 3,
-          prerequisites: ["data-analysis", "statistics", "numpy"],
-        },
-        {
-          id: "scikit-learn",
-          label: "Scikit-Learn",
-          description: "Industry-standard ML library for Python",
-          duration: "2-3 weeks",
-          resources: ["Scikit-Learn Docs", "Kaggle ML Course"],
-          phase: 3,
-          prerequisites: ["machine-learning", "pandas"],
-        },
-        {
-          id: "feature-engineering",
-          label: "Feature Engineering",
-          description: "Transform raw data into model-ready features",
-          duration: "2 weeks",
-          resources: ["Kaggle Feature Engineering", "Feature Engineering Book"],
-          phase: 3,
-          prerequisites: ["machine-learning", "data-analysis"],
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "Deep Learning & Production",
-      description: "Neural networks & deployment",
-      icon: "🚀",
-      skills: [
-        {
-          id: "deep-learning",
-          label: "Deep Learning",
-          description: "Neural networks, CNNs, RNNs, Transformers",
-          duration: "6-8 weeks",
-          resources: ["Deep Learning Specialization", "Fast.ai"],
-          phase: 4,
-          prerequisites: ["machine-learning", "linear-algebra"],
-        },
-        {
-          id: "tensorflow",
-          label: "TensorFlow / PyTorch",
-          description: "Build & train deep learning models",
-          duration: "3-4 weeks",
-          resources: ["TF Developer Certificate", "PyTorch Tutorials"],
-          phase: 4,
-          prerequisites: ["deep-learning"],
-        },
-        {
-          id: "mlops",
-          label: "MLOps & Deployment",
-          description: "Model serving, monitoring & CI/CD",
-          duration: "3-4 weeks",
-          resources: ["MLOps Zoomcamp", "AWS SageMaker"],
-          phase: 4,
-          prerequisites: ["tensorflow", "scikit-learn"],
-        },
-      ],
-    },
-  ],
-};
-
-const dataScientistRoadmap: GoalRoadmap = {
-  goal: "Data Scientist",
-  title: "Data Scientist Roadmap",
-  subtitle: "From analysis to actionable insights",
-  phases: [
-    {
-      id: 1,
-      title: "Foundations",
-      description: "Programming & mathematical fundamentals",
-      icon: "🧱",
-      skills: [
-        {
-          id: "python",
-          label: "Python",
-          description: "Primary language for data science",
-          duration: "3-4 weeks",
-          resources: ["Python for Data Science", "Codecademy Python"],
-          phase: 1,
-          prerequisites: [],
-        },
-        {
-          id: "statistics",
-          label: "Statistics",
-          description: "Descriptive & inferential statistics",
-          duration: "3-4 weeks",
-          resources: ["Khan Academy", "StatQuest YouTube"],
-          phase: 1,
-          prerequisites: [],
-        },
-        {
-          id: "probability",
-          label: "Probability Theory",
-          description: "Probability distributions & Bayesian thinking",
-          duration: "2-3 weeks",
-          resources: ["MIT OCW Probability", "Think Bayes"],
-          phase: 1,
-          prerequisites: [],
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: "Data Wrangling",
-      description: "Collect, clean, and transform data",
-      icon: "🔧",
-      skills: [
-        {
-          id: "sql",
-          label: "SQL",
-          description: "Database querying and management",
-          duration: "2-3 weeks",
-          resources: ["SQLBolt", "W3Schools SQL"],
-          phase: 2,
-          prerequisites: ["python"],
-        },
-        {
-          id: "pandas",
-          label: "Pandas & NumPy",
-          description: "Data manipulation and numerical computing",
-          duration: "3-4 weeks",
-          resources: ["Pandas Docs", "Python Data Science Handbook"],
-          phase: 2,
-          prerequisites: ["python"],
-        },
-        {
-          id: "data-viz",
-          label: "Data Visualization",
-          description: "Matplotlib, Seaborn, Plotly for storytelling",
-          duration: "2-3 weeks",
-          resources: ["Kaggle Data Viz", "Storytelling with Data"],
-          phase: 2,
-          prerequisites: ["pandas"],
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Machine Learning",
-      description: "Predictive modeling & evaluation",
-      icon: "🧠",
-      skills: [
-        {
-          id: "machine-learning",
-          label: "Machine Learning",
-          description: "Regression, classification, clustering",
-          duration: "5-6 weeks",
-          resources: ["Andrew Ng ML", "Kaggle ML Course"],
-          phase: 3,
-          prerequisites: ["statistics", "pandas"],
-        },
-        {
-          id: "feature-eng",
-          label: "Feature Engineering",
-          description: "Domain-driven feature creation",
-          duration: "2 weeks",
-          resources: ["Kaggle Feature Engineering"],
-          phase: 3,
-          prerequisites: ["machine-learning"],
-        },
-        {
-          id: "model-eval",
-          label: "Model Evaluation",
-          description: "Cross-validation, metrics, bias-variance",
-          duration: "1-2 weeks",
-          resources: ["Scikit-Learn Docs", "ML Mastery"],
-          phase: 3,
-          prerequisites: ["machine-learning"],
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "Advanced & Communication",
-      description: "Deep learning, NLP & business impact",
-      icon: "🎯",
-      skills: [
-        {
-          id: "deep-learning",
-          label: "Deep Learning",
-          description: "Neural networks for complex patterns",
-          duration: "4-6 weeks",
-          resources: ["Fast.ai", "Deep Learning Specialization"],
-          phase: 4,
-          prerequisites: ["machine-learning"],
-        },
-        {
-          id: "nlp",
-          label: "NLP",
-          description: "Text processing & language models",
-          duration: "3-4 weeks",
-          resources: ["Hugging Face Course", "NLP with Python"],
-          phase: 4,
-          prerequisites: ["deep-learning"],
-        },
-        {
-          id: "storytelling",
-          label: "Data Storytelling",
-          description: "Present insights to stakeholders",
-          duration: "2 weeks",
-          resources: ["Storytelling with Data", "Tableau Public"],
-          phase: 4,
-          prerequisites: ["data-viz", "model-eval"],
-        },
-      ],
-    },
-  ],
-};
-
-const webDeveloperRoadmap: GoalRoadmap = {
-  goal: "Web Developer",
-  title: "Web Developer Roadmap",
-  subtitle: "From HTML to full-stack applications",
-  phases: [
-    {
-      id: 1,
-      title: "Foundations",
-      description: "Core web technologies",
-      icon: "🌐",
-      skills: [
-        {
-          id: "html",
-          label: "HTML",
-          description: "Structure & semantics of web pages",
-          duration: "1-2 weeks",
-          resources: ["MDN HTML Guide", "freeCodeCamp"],
-          phase: 1,
-          prerequisites: [],
-        },
-        {
-          id: "css",
-          label: "CSS",
-          description: "Styling, layouts, responsive design",
-          duration: "2-3 weeks",
-          resources: ["CSS-Tricks", "freeCodeCamp CSS"],
-          phase: 1,
-          prerequisites: ["html"],
-        },
-        {
-          id: "git",
-          label: "Git & GitHub",
-          description: "Version control and collaboration",
-          duration: "1 week",
-          resources: ["Git Handbook", "GitHub Learning Lab"],
-          phase: 1,
-          prerequisites: [],
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: "JavaScript Mastery",
-      description: "Dynamic & interactive web experiences",
-      icon: "⚡",
-      skills: [
-        {
-          id: "javascript",
-          label: "JavaScript",
-          description: "Core language of the web",
-          duration: "4-6 weeks",
-          resources: ["JavaScript.info", "Eloquent JavaScript"],
-          phase: 2,
-          prerequisites: ["html", "css"],
-        },
-        {
-          id: "typescript",
-          label: "TypeScript",
-          description: "Type-safe JavaScript for scalable apps",
-          duration: "2-3 weeks",
-          resources: ["TypeScript Handbook", "Total TypeScript"],
-          phase: 2,
-          prerequisites: ["javascript"],
-        },
-        {
-          id: "dom-api",
-          label: "DOM & Browser APIs",
-          description: "Manipulate pages and use web APIs",
-          duration: "1-2 weeks",
-          resources: ["MDN Web APIs", "JavaScript30"],
-          phase: 2,
-          prerequisites: ["javascript"],
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Frameworks & Backend",
-      description: "Build production-ready applications",
-      icon: "🏗️",
-      skills: [
-        {
-          id: "react",
-          label: "React",
-          description: "Component-based UI framework",
-          duration: "4-6 weeks",
-          resources: ["React.dev", "Full Stack Open"],
-          phase: 3,
-          prerequisites: ["javascript", "typescript"],
-        },
-        {
-          id: "node",
-          label: "Node.js & Express",
-          description: "Server-side JavaScript runtime",
-          duration: "3-4 weeks",
-          resources: ["Node.js Docs", "The Odin Project"],
-          phase: 3,
-          prerequisites: ["javascript"],
-        },
-        {
-          id: "databases",
-          label: "Databases",
-          description: "SQL, NoSQL & data modeling",
-          duration: "2-3 weeks",
-          resources: ["PostgreSQL Tutorial", "MongoDB University"],
-          phase: 3,
-          prerequisites: ["node"],
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "Production & DevOps",
-      description: "Deploy, scale & maintain applications",
-      icon: "🚀",
-      skills: [
-        {
-          id: "nextjs",
-          label: "Next.js / Full-Stack",
-          description: "SSR, API routes & full-stack React",
-          duration: "3-4 weeks",
-          resources: ["Next.js Docs", "Lee Robinson YouTube"],
-          phase: 4,
-          prerequisites: ["react", "node"],
-        },
-        {
-          id: "testing",
-          label: "Testing",
-          description: "Unit, integration & E2E testing",
-          duration: "2 weeks",
-          resources: ["Testing Library", "Playwright Docs"],
-          phase: 4,
-          prerequisites: ["react"],
-        },
-        {
-          id: "deployment",
-          label: "CI/CD & Deployment",
-          description: "Docker, Vercel, AWS & automation",
-          duration: "2-3 weeks",
-          resources: ["Docker Docs", "GitHub Actions"],
-          phase: 4,
-          prerequisites: ["nextjs", "testing"],
-        },
-      ],
-    },
-  ],
-};
-
-export const roadmaps: Record<string, GoalRoadmap> = {
-  "AI Engineer": aiEngineerRoadmap,
-  "Data Scientist": dataScientistRoadmap,
-  "Web Developer": webDeveloperRoadmap,
-};
-
-// Year-based filtering: early years focus on phases 1-2, later years on 3-4
-export function getFilteredRoadmap(
-  goal: string,
-  year?: string,
-  level?: string
-): GoalRoadmap {
-  const roadmap = roadmaps[goal] || aiEngineerRoadmap;
-
-  // If no year info, return full roadmap
-  if (!year) return roadmap;
-
-  const yearNum = parseInt(year);
-
-  // Highlight recommended phases based on year
-  // 1st year: focus phases 1-2
-  // 2nd year: phases 1-3
-  // 3rd year: phases 2-4
-  // 4th year: phases 3-4
-  return {
-    ...roadmap,
-    phases: roadmap.phases.map((phase) => {
-      let recommended = true;
-      if (yearNum <= 2 && phase.id > yearNum + 1) recommended = false;
-      if (yearNum >= 3 && phase.id < yearNum - 1) recommended = false;
-      return { ...phase, _recommended: recommended } as RoadmapPhase & { _recommended?: boolean };
-    }),
-  };
-}
-
-export function getSkillStatus(
-  skillId: string,
-  userSkills: string[],
-  diagnosticLevel?: string
-): "completed" | "current" | "locked" | "available" {
-  const normalizedSkills = userSkills.map((s) => s.toLowerCase());
-  const normalizedId = skillId.toLowerCase().replace(/-/g, " ");
-
-  if (normalizedSkills.includes(normalizedId) || normalizedSkills.includes(skillId)) {
-    return "completed";
+{
+  "AI Engineer": {
+    "goal": "AI Engineer",
+    "title": "AI Engineer Roadmap",
+    "subtitle": "From fundamentals to production AI systems",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations",
+        "description": "Core programming & math fundamentals",
+        "icon": "🧱",
+        "skills": [
+          {
+            "id": "python",
+            "label": "Python",
+            "description": "Core language for AI/ML development",
+            "duration": "3-4 weeks",
+            "resources": [
+              "Python Crash Course",
+              "Automate the Boring Stuff"
+            ],
+            "phase": 1,
+            "prerequisites": []
+          },
+          {
+            "id": "statistics",
+            "label": "Statistics & Probability",
+            "description": "Statistical thinking for data-driven decisions",
+            "duration": "2-3 weeks",
+            "resources": [
+              "Khan Academy Stats",
+              "Think Stats"
+            ],
+            "phase": 1,
+            "prerequisites": []
+          },
+          {
+            "id": "linear-algebra",
+            "label": "Linear Algebra",
+            "description": "Vectors, matrices & transformations for ML",
+            "duration": "2-3 weeks",
+            "resources": [
+              "3Blue1Brown",
+              "MIT OCW 18.06"
+            ],
+            "phase": 1,
+            "prerequisites": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Data Manipulation",
+        "description": "Work with real-world data efficiently",
+        "icon": "📊",
+        "skills": [
+          {
+            "id": "numpy",
+            "label": "NumPy",
+            "description": "Numerical computing & array operations",
+            "duration": "1-2 weeks",
+            "resources": [
+              "NumPy User Guide",
+              "Python Data Science Handbook"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "python",
+              "linear-algebra"
+            ]
+          },
+          {
+            "id": "pandas",
+            "label": "Pandas",
+            "description": "Data manipulation & analysis library",
+            "duration": "2-3 weeks",
+            "resources": [
+              "Pandas Documentation",
+              "Kaggle Pandas Course"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "numpy"
+            ]
+          },
+          {
+            "id": "sql",
+            "label": "SQL",
+            "description": "Query and manage structured databases",
+            "duration": "2 weeks",
+            "resources": [
+              "SQLBolt",
+              "Mode SQL Tutorial"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "python"
+            ]
+          },
+          {
+            "id": "data-analysis",
+            "label": "Data Analysis",
+            "description": "Exploratory data analysis & visualization",
+            "duration": "2-3 weeks",
+            "resources": [
+              "Kaggle EDA Course",
+              "Matplotlib & Seaborn"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "pandas",
+              "statistics"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Machine Learning",
+        "description": "Classical ML algorithms & pipelines",
+        "icon": "🤖",
+        "skills": [
+          {
+            "id": "machine-learning",
+            "label": "Machine Learning",
+            "description": "Supervised & unsupervised learning algorithms",
+            "duration": "4-6 weeks",
+            "resources": [
+              "Andrew Ng ML Course",
+              "Hands-On ML (Géron)"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "data-analysis",
+              "statistics",
+              "numpy"
+            ]
+          },
+          {
+            "id": "scikit-learn",
+            "label": "Scikit-Learn",
+            "description": "Industry-standard ML library for Python",
+            "duration": "2-3 weeks",
+            "resources": [
+              "Scikit-Learn Docs",
+              "Kaggle ML Course"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "machine-learning",
+              "pandas"
+            ]
+          },
+          {
+            "id": "feature-engineering",
+            "label": "Feature Engineering",
+            "description": "Transform raw data into model-ready features",
+            "duration": "2 weeks",
+            "resources": [
+              "Kaggle Feature Engineering",
+              "Feature Engineering Book"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "machine-learning",
+              "data-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Deep Learning & Production",
+        "description": "Neural networks & deployment",
+        "icon": "🚀",
+        "skills": [
+          {
+            "id": "deep-learning",
+            "label": "Deep Learning",
+            "description": "Neural networks, CNNs, RNNs, Transformers",
+            "duration": "6-8 weeks",
+            "resources": [
+              "Deep Learning Specialization",
+              "Fast.ai"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "machine-learning",
+              "linear-algebra"
+            ]
+          },
+          {
+            "id": "tensorflow",
+            "label": "TensorFlow / PyTorch",
+            "description": "Build & train deep learning models",
+            "duration": "3-4 weeks",
+            "resources": [
+              "TF Developer Certificate",
+              "PyTorch Tutorials"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "deep-learning"
+            ]
+          },
+          {
+            "id": "mlops",
+            "label": "MLOps & Deployment",
+            "description": "Model serving, monitoring & CI/CD",
+            "duration": "3-4 weeks",
+            "resources": [
+              "MLOps Zoomcamp",
+              "AWS SageMaker"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "tensorflow",
+              "scikit-learn"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Data Scientist": {
+    "goal": "Data Scientist",
+    "title": "Data Scientist Roadmap",
+    "subtitle": "From analysis to actionable insights",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations",
+        "description": "Programming & mathematical fundamentals",
+        "icon": "🧱",
+        "skills": [
+          {
+            "id": "python",
+            "label": "Python",
+            "description": "Primary language for data science",
+            "duration": "3-4 weeks",
+            "resources": [
+              "Python for Data Science",
+              "Codecademy Python"
+            ],
+            "phase": 1,
+            "prerequisites": []
+          },
+          {
+            "id": "statistics",
+            "label": "Statistics",
+            "description": "Descriptive & inferential statistics",
+            "duration": "3-4 weeks",
+            "resources": [
+              "Khan Academy",
+              "StatQuest YouTube"
+            ],
+            "phase": 1,
+            "prerequisites": []
+          },
+          {
+            "id": "probability",
+            "label": "Probability Theory",
+            "description": "Probability distributions & Bayesian thinking",
+            "duration": "2-3 weeks",
+            "resources": [
+              "MIT OCW Probability",
+              "Think Bayes"
+            ],
+            "phase": 1,
+            "prerequisites": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Data Wrangling",
+        "description": "Collect, clean, and transform data",
+        "icon": "🔧",
+        "skills": [
+          {
+            "id": "sql",
+            "label": "SQL",
+            "description": "Database querying and management",
+            "duration": "2-3 weeks",
+            "resources": [
+              "SQLBolt",
+              "W3Schools SQL"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "python"
+            ]
+          },
+          {
+            "id": "pandas",
+            "label": "Pandas & NumPy",
+            "description": "Data manipulation and numerical computing",
+            "duration": "3-4 weeks",
+            "resources": [
+              "Pandas Docs",
+              "Python Data Science Handbook"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "python"
+            ]
+          },
+          {
+            "id": "data-viz",
+            "label": "Data Visualization",
+            "description": "Matplotlib, Seaborn, Plotly for storytelling",
+            "duration": "2-3 weeks",
+            "resources": [
+              "Kaggle Data Viz",
+              "Storytelling with Data"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "pandas"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Machine Learning",
+        "description": "Predictive modeling & evaluation",
+        "icon": "🧠",
+        "skills": [
+          {
+            "id": "machine-learning",
+            "label": "Machine Learning",
+            "description": "Regression, classification, clustering",
+            "duration": "5-6 weeks",
+            "resources": [
+              "Andrew Ng ML",
+              "Kaggle ML Course"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "statistics",
+              "pandas"
+            ]
+          },
+          {
+            "id": "feature-eng",
+            "label": "Feature Engineering",
+            "description": "Domain-driven feature creation",
+            "duration": "2 weeks",
+            "resources": [
+              "Kaggle Feature Engineering"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "machine-learning"
+            ]
+          },
+          {
+            "id": "model-eval",
+            "label": "Model Evaluation",
+            "description": "Cross-validation, metrics, bias-variance",
+            "duration": "1-2 weeks",
+            "resources": [
+              "Scikit-Learn Docs",
+              "ML Mastery"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "machine-learning"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Advanced & Communication",
+        "description": "Deep learning, NLP & business impact",
+        "icon": "🎯",
+        "skills": [
+          {
+            "id": "deep-learning",
+            "label": "Deep Learning",
+            "description": "Neural networks for complex patterns",
+            "duration": "4-6 weeks",
+            "resources": [
+              "Fast.ai",
+              "Deep Learning Specialization"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "machine-learning"
+            ]
+          },
+          {
+            "id": "nlp",
+            "label": "NLP",
+            "description": "Text processing & language models",
+            "duration": "3-4 weeks",
+            "resources": [
+              "Hugging Face Course",
+              "NLP with Python"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "deep-learning"
+            ]
+          },
+          {
+            "id": "storytelling",
+            "label": "Data Storytelling",
+            "description": "Present insights to stakeholders",
+            "duration": "2 weeks",
+            "resources": [
+              "Storytelling with Data",
+              "Tableau Public"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "data-viz",
+              "model-eval"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Web Developer": {
+    "goal": "Web Developer",
+    "title": "Web Developer Roadmap",
+    "subtitle": "From HTML to full-stack applications",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations",
+        "description": "Core web technologies",
+        "icon": "🌐",
+        "skills": [
+          {
+            "id": "html",
+            "label": "HTML",
+            "description": "Structure & semantics of web pages",
+            "duration": "1-2 weeks",
+            "resources": [
+              "MDN HTML Guide",
+              "freeCodeCamp"
+            ],
+            "phase": 1,
+            "prerequisites": []
+          },
+          {
+            "id": "css",
+            "label": "CSS",
+            "description": "Styling, layouts, responsive design",
+            "duration": "2-3 weeks",
+            "resources": [
+              "CSS-Tricks",
+              "freeCodeCamp CSS"
+            ],
+            "phase": 1,
+            "prerequisites": [
+              "html"
+            ]
+          },
+          {
+            "id": "git",
+            "label": "Git & GitHub",
+            "description": "Version control and collaboration",
+            "duration": "1 week",
+            "resources": [
+              "Git Handbook",
+              "GitHub Learning Lab"
+            ],
+            "phase": 1,
+            "prerequisites": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "JavaScript Mastery",
+        "description": "Dynamic & interactive web experiences",
+        "icon": "⚡",
+        "skills": [
+          {
+            "id": "javascript",
+            "label": "JavaScript",
+            "description": "Core language of the web",
+            "duration": "4-6 weeks",
+            "resources": [
+              "JavaScript.info",
+              "Eloquent JavaScript"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "html",
+              "css"
+            ]
+          },
+          {
+            "id": "typescript",
+            "label": "TypeScript",
+            "description": "Type-safe JavaScript for scalable apps",
+            "duration": "2-3 weeks",
+            "resources": [
+              "TypeScript Handbook",
+              "Total TypeScript"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "javascript"
+            ]
+          },
+          {
+            "id": "dom-api",
+            "label": "DOM & Browser APIs",
+            "description": "Manipulate pages and use web APIs",
+            "duration": "1-2 weeks",
+            "resources": [
+              "MDN Web APIs",
+              "JavaScript30"
+            ],
+            "phase": 2,
+            "prerequisites": [
+              "javascript"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Frameworks & Backend",
+        "description": "Build production-ready applications",
+        "icon": "🏗️",
+        "skills": [
+          {
+            "id": "react",
+            "label": "React",
+            "description": "Component-based UI framework",
+            "duration": "4-6 weeks",
+            "resources": [
+              "React.dev",
+              "Full Stack Open"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "javascript",
+              "typescript"
+            ]
+          },
+          {
+            "id": "node",
+            "label": "Node.js & Express",
+            "description": "Server-side JavaScript runtime",
+            "duration": "3-4 weeks",
+            "resources": [
+              "Node.js Docs",
+              "The Odin Project"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "javascript"
+            ]
+          },
+          {
+            "id": "databases",
+            "label": "Databases",
+            "description": "SQL, NoSQL & data modeling",
+            "duration": "2-3 weeks",
+            "resources": [
+              "PostgreSQL Tutorial",
+              "MongoDB University"
+            ],
+            "phase": 3,
+            "prerequisites": [
+              "node"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Production & DevOps",
+        "description": "Deploy, scale & maintain applications",
+        "icon": "🚀",
+        "skills": [
+          {
+            "id": "nextjs",
+            "label": "Next.js / Full-Stack",
+            "description": "SSR, API routes & full-stack React",
+            "duration": "3-4 weeks",
+            "resources": [
+              "Next.js Docs",
+              "Lee Robinson YouTube"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "react",
+              "node"
+            ]
+          },
+          {
+            "id": "testing",
+            "label": "Testing",
+            "description": "Unit, integration & E2E testing",
+            "duration": "2 weeks",
+            "resources": [
+              "Testing Library",
+              "Playwright Docs"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "react"
+            ]
+          },
+          {
+            "id": "deployment",
+            "label": "CI/CD & Deployment",
+            "description": "Docker, Vercel, AWS & automation",
+            "duration": "2-3 weeks",
+            "resources": [
+              "Docker Docs",
+              "GitHub Actions"
+            ],
+            "phase": 4,
+            "prerequisites": [
+              "nextjs",
+              "testing"
+            ]
+          }
+        ]
+      }
+    ]
   }
-
-  return "available";
 }
