@@ -9,6 +9,7 @@ export interface SkillNode {
   prerequisites: string[];
   xp?: number;
   estimatedHours?: number;
+  duration?: string; // ✅ ADD THIS
 }
 
 export interface Phase {
@@ -37,17 +38,23 @@ export function getFilteredRoadmap(
     id: p.id ?? idx + 1,
     title: p.title ?? `Phase ${idx + 1}`,
     skills: (p.skills || []).map((s: any) =>
-      typeof s === "string"
-        ? { id: s, label: s.replace(/-/g, " "), prerequisites: [] }
-        : {
-            id: s.id ?? s.skill_id ?? s.label,
-            label: s.label ?? s.name ?? s.id,
-            description: s.description ?? "",
-            prerequisites: s.prerequisites ?? [],
-            xp: s.xp ?? 10,
-            estimatedHours: s.estimatedHours ?? s.estimated_hours ?? 2,
-          }
-    ),
+  typeof s === "string"
+    ? {
+        id: s,
+        label: s.replace(/-/g, " "),
+        prerequisites: [],
+        duration: "2h",
+      }
+    : {
+        id: s.id ?? s.skill_id ?? s.label,
+        label: s.label ?? s.name ?? s.id,
+        description: s.description ?? "",
+        prerequisites: s.prerequisites ?? [],
+        xp: s.xp ?? 10,
+        estimatedHours: s.estimatedHours ?? s.estimated_hours ?? 2,
+        duration: `${s.estimatedHours ?? s.estimated_hours ?? 2}h`,
+      }
+),
   }));
 
   return {
